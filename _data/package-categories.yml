@@ -1,18 +1,3 @@
-- subtitle: "Analysis Pipeline Management"
-  tag: "analysis-pipeline-management"
+- subtitle: "Tax Data"
+  tag: "tax-data"
   count: 1
-- subtitle: "Diffusion MRI"
-  tag: "diffusion-mri"
-  count: 2
-- subtitle: "File I/O and Data Management"
-  tag: "file-data-management"
-  count: 3
-- subtitle: "Functional MRI"
-  tag: "functional-mri"
-  count: 4
-- subtitle: "Machine Learning"
-  tag: "machine-learning"
-  count: 5
-- subtitle: "Human Electrophysiology"
-  tag: "human-electrophysiology"
-  count: 6
