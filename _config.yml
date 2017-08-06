@@ -1,11 +1,11 @@
 # Site settings
-title: nipy.org
-description: "nipy.org"
-url: "nipy.org"
+title: Non-Profit Open Data Collective
+description: "npodc.github.io"
+url: "npodc.github.io"
 author:
-  name: "nipy"
-  email: "neuroimaging@python.org"
-  url: "nipy.github.io"
+  name: "Ben Cipollini"
+  email: "bcipollini@classy.org"
+  url: "npodc.github.io"
 
 # Build settings
 baseurl: ""  # this must be line 11; see circle_urls.sh
@@ -18,10 +18,12 @@ paginate_path: /page:num/
 
 # Custom variables
 version: "1.1.0"
-googleanalytics: "UA-69411900-1"
+currentYear: "2017"
+googleanalytics: "UA-104155364-1"
+blogUrl: "#"
 
 # SEO
-logo: /img/nipy.png
+logo: /img/npodc-logo.png
 authorTwitter: 'nipyorg'
 gems:
   - jekyll-seo-tag
