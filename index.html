@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<style>
+    h2 { margin-top:20px; margin-bottom:20px; }
+    .panel { margin-top: 15px; }
+    li { list-style-type: none; margin-bottom: 10px; }
+    a.package-name { text-decoration: underline }
+    .fa-github { color: #666; }
+    .fa-home { color: #333; margin-right: 5px; }
+</style>
+
+<h2 style="margin-top:20px; margin-bottom:20px">{{ site.url }}</h2>
+
+<p>
+Welcome to NIPY. We are a <a href="https://en.wikipedia.org/wiki/Community_of_practice" target="_blank">community of practice</a> devoted to the use of the Python programming language in the analysis of neuroimaging data. You can find us on <a href="https://github.com/nipy" target="_blank">github</a>, as well as social media <a href="http://neuroimaging.tumblr.com" target="_blank">[blog]</a> <a href="https://twitter.com/nipyorg" target="_blank">[twitter]</a>. We welcome <a href="{{ '/contribute.html' | prepend: site.baseurl }}" target="_blank">contributions</a> and ask that you read about our <a href="{{ '/conduct.html' | prepend: site.baseurl }}" target="_blank">standards of conduct</a>. You are also invited to <a href="{{ '/help.html' | prepend: site.baseurl }}" target="_blank">ask for help.</a>
+</p>
+
+<p>
+We develop the following projects:
+</p>
+
+<div class="panel-group" id="accordion">
+    {% for category in site.data.package-categories %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#pr{{ category.tag }}">{{ category.subtitle }}</a>
+                </h4>
+            </div>
+            <div id="pr{{ category.tag }}" class="panel-collapse collapse in">
+                <div class="panel-body">
+        {% for package in site.packages %}
+            {% if package.category == category.tag %}
+                    <li>
+                        <a href="{{ package.github }}" target="_blank"><i class="fa fa-github"> </i></a>
+                        <a href="{{ package.doc }}" target="_blank"><i class="fa fa-home"></i></a>
+                        <a class="package-name" href="{{ package.url | prepend: site.baseurl }}">{{ package.name }}</a>
+                         - {% if package.one-liner %}{{ package.one-liner }}{% else %}{{ package.description }}{% endif %}
+                    </li>
+            {% endif %}
+         {% endfor %}
+                </div>
+            </div>
+        </div>
+   {% endfor %}
+</div>

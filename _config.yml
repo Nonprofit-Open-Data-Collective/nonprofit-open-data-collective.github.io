@@ -1,1 +1,37 @@
-theme: jekyll-theme-slate
+# Site settings
+title: nipy.org
+description: "nipy.org"
+url: "nipy.org"
+author:
+  name: "nipy"
+  email: "neuroimaging@python.org"
+  url: "nipy.github.io"
+
+# Build settings
+baseurl: ""  # this must be line 11; see circle_urls.sh
+markdown: kramdown
+source: .
+destination: ./_site  # this must be line 14; see circle_urls.sh
+permalink: "/:title"
+paginate: 8
+paginate_path: /page:num/
+
+# Custom variables
+version: "1.1.0"
+googleanalytics: "UA-69411900-1"
+
+# SEO
+logo: /img/nipy.png
+authorTwitter: 'nipyorg'
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+
+# Options
+reverse: true
+
+collections:
+  packages:
+    output: true
+    permalink: /packages/:path/index.html

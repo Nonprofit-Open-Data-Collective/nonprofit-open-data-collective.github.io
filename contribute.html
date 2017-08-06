@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<h1 style="padding-bottom:50px">How do you want to contribute?</h1>
+<p style="padding-bottom:100px">We invite all members of the community to contribute. Have an idea, research update, or conference summary? <a href="http://neuroimaging.tumblr.com/submit">submit it</a> right away, or <a href="http://neuroimaging.tumblr.com/ask">ask us a question</a>.</p>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-8">
+                <h3>Developer</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                {% include svg/github.svg %}
+            </div>
+            <div class="col-md-8">
+                <div class="well infobox">
+                <a href='#add-a-package'>Add a package</a><br>
+                <a href='#write-a-post'>Write a blog post</a><br>
+                <a href='#contribute-to-site'>Contribute to this website</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-8">
+            <h3>Neuroimaging Scientist</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                {% include svg/scientist.svg %}
+            </div>
+            <div class="col-md-8">
+                <div class="well infobox">
+                <a href='#ask-a-question'>Ask a question</a><br>
+                <a href='#learn-about-nipy'>Learn about our organization</a><br>
+                <a href='#research-opportunities'>Research Opportunities</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% for grouping in site.data.contribute %}
+    {% for category in grouping.categories %}
+    <h2 style="margin-bottom:25px;margin-top:25px">{{ category.subtitle }}</h2>
+        <div class="panel-group" id="accordion">
+            {% for question in category.questions %}
+                <div class="panel panel-default">
+                    <div id="{{ question.tag }}" class="panel-heading" style="background-color:#649700;color:white">
+                        <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#pr{{ question.tag }}">{{ question.question }} </a>
+                        </h4>
+                    </div>
+                    <div id="pr{{ question.tag }}" class="panel-collapse collapse in">
+                        <div class="panel-body" style="padding-left:60px; padding-right:60px">
+                        <p>{{ question.answer }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+             {% endfor %}
+</div>
+{% endfor %}
+
+<p>Thanks for stopping by!</p>
+<img src="{{ '/img/reggie.png | prepend: site.baseurl }}"/>
+
+</div>

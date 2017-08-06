@@ -1,43 +1,29 @@
+## About
+nipy.org is built with a custom theme created for Jekyll.
 
-The address for this site is:
+- [site](http://www.nipy.org)
+- preview changes with [continuous integration](https://circleci.com/gh/nipy/nipy.github.com/tree/master)
 
-https://nonprofit-open-data-collective.github.io/
+[![Circle CI](https://circleci.com/gh/nipy/nipy.github.com.svg?style=svg)](https://circleci.com/gh/nipy/nipy.github.com)
+
+###### Install Jekyll and RubyGems
+
+Here are [complete instructions](https://help.github.com/articles/using-jekyll-with-pages/#installing-jekyll)
+Refer to the [Jekyll documentation](http://jekyllrb.com) for further help.
 
 
-## Welcome to GitHub Pages
+#### Quick Start
 
-You can use the [editor on GitHub](https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+To see more detailed instructions for adding a new project ("data") please refer to the [Contribute section](http://nipy.org/contribute.html) on the site.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+###### Add a new project
 
-### Markdown
+1. Copy `/packages/nipy.html` to `/packages/your_project.html`
+2. Edit `/packages/your_project.html`
+3. Add your logo to `imgs`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Running Locally
 
-```markdown
-Syntax highlighted code block
+      cd nipy.github.com
+      jekyll serve
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

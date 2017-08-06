@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article id="page">
+
+ <h1>{{ page.name }}</h1>
+ <h5>{% for category in site.data.categories %}{% if page.category == category.tag %}{{ category.name }}{% endif %}{% endfor %}</h5>
+
+ <a href="{{ page.doc }}" target="_blank" class="btn btn-sm btn-default"><span class="fa fa-home"></span> Doc</a>
+ <a href="{{ page.github }}" target="_blank" class="btn btn-sm btn-default"><span class="fa fa-github"></span> Github</a>
+
+ <h4>{{ page.description }}</h4>
+
+{{ content }}
+
+</article>

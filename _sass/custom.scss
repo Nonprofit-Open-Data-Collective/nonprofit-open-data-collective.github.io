@@ -1,0 +1,38 @@
+/*- Custom style -*/
+
+// -- Style for D3 -- //
+text.mono {
+  font-size: 9pt;
+  font-family: 'Roboto', sans-serif lower-case;
+  fill: #aaa;
+}
+
+text.yaxis {
+  fill: #000;
+}
+
+text.xaxis {
+  fill: #000;
+}
+
+.link {
+    stroke: #ccc;
+ }
+
+.node text {
+    pointer-events: none;
+    font: 14px sans-serif;
+ }
+
+// Contribute Page informatiion boxes
+
+.infobox {
+    height:124px;
+}
+
+// SVG mouseover effects
+nipy-svg:hover,
+nipy-svg:focus {
+    text-decoration: none;
+    color: #1d9b6c;
+}
