@@ -1,14 +1,12 @@
 # Site settings
 title: Non-Profit Open Data Collective
 description: "npodc.github.io"
-url: "npodc.github.io"
 author:
   name: "Ben Cipollini"
   email: "bcipollini@classy.org"
   url: "npodc.github.io"
 
 # Build settings
-baseurl: ""
 markdown: kramdown
 source: .
 destination: ./_site
