@@ -17,7 +17,7 @@ paginate: 8
 paginate_path: /page:num/
 
 # Custom variables
-version: "1.1.0"
+version: "0.1.0"
 currentYear: "2017"
 googleanalytics: "UA-104155364-1"
 blogUrl: "#"

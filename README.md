@@ -12,6 +12,9 @@ Nonprofit-Open-Data-Collective.github.io is built with a custom theme created fo
 Here are [complete instructions](https://help.github.com/articles/using-jekyll-with-pages/#installing-jekyll)
 Refer to the [Jekyll documentation](http://jekyllrb.com) for further help.
 
+1. `gem install bundler`
+2. `bundle install`
+
 
 #### Quick Start
 
@@ -19,12 +22,12 @@ To see more detailed instructions for adding a new project ("data") please refer
 
 ###### Add a new project
 
-1. Copy `/packages/nipy.html` to `/packages/your_project.html`
-2. Edit `/packages/your_project.html`
-3. Add your logo to `imgs`
+1. Copy `_packages/990-decoder.html` to `_packages/your_project.html`
+2. Edit `_packages/your_project.html`
+3. Add your logo to `img`
 
 #### Running Locally
 
-      cd nipy.github.com
-      jekyll serve
+      cd nonprofit-open-data-collective.github.io
+      bundle exec jekyll serve
 
