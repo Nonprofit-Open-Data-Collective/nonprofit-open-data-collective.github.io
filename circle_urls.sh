@@ -1,3 +1,3 @@
-BASEURL=https://circle-artifacts.com/gh/bcipolli/Nonprofit-Open-Data-Collective.github.io/$CIRCLE_BUILD_NUM/artifacts/0/home/ubuntu/Nonprofit-Open-Data-Collective.github.io/_site
+BASEURL=https://${CIRCLE_BUILD_NUM}-99277451-gh.circle-artifacts.com/0/home/ubuntu/nonprofit-open-data-collective.github.io/_site/index.html
 sed -i "14 s,.*,destination: ./_site,g" "_config.yml"
 sed -i "11 s,.*,baseurl: $BASEURL,g" "_config.yml"
