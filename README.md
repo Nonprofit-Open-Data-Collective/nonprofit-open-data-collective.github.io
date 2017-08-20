@@ -32,5 +32,5 @@ If you add a new category tag for your project, edit `_data/package-categories.y
 #### Running Locally
 
       cd nonprofit-open-data-collective.github.io
-      bundle exec jekyll serve
+      bundle exec jekyll serve --help
 
