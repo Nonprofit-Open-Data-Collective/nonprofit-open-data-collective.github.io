@@ -1,7 +1,7 @@
 <nav {% if site.reverse == true %}id="nav-left"{% else %}id="nav"{% endif %}>
 
     <div id="nav-list">
-        <a href="{{ '/index.html' | prepend: site.baseUrl }}">Home</a>
+        <a href="{{ '/index.html' | prepend: site.baseurl }}">Home</a>
 
         <!-- Nav pages -->
         <a href="#projects" class="list-group-item list-group-item" data-toggle="collapse">Projects <i class="fa fa-caret-down"></i></a>
@@ -12,7 +12,7 @@
             <div class="collapse" id="{{ category.tag }}" style="color:lime">
             {% for package in site.packages %}
                 {% if package.category == category.tag %}
-                <a href="{{ package.url | prepend: site.baseUrl }}" style="border-radius:0px; color:lime;" id="{{ package.tag }}" class="list-group-item list-project">{{ package.name }}</a>
+                <a href="{{ package.url | prepend: site.baseurl }}" style="border-radius:0px; color:lime;" id="{{ package.tag }}" class="list-group-item list-project">{{ package.name }}</a>
                 {% endif %}
             {% endfor %}
             </div>

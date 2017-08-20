@@ -27,9 +27,9 @@
         {% if paginator.total_pages > 1 %}
             <div class="pagination">
             {% if paginator.previous_page == 1 %}
-            <a href="{{ '/index.html' | prepend: site.baseUrl }}" class="page-item">&laquo;</a>
+            <a href="{{ '/index.html' | prepend: site.baseurl }}" class="page-item">&laquo;</a>
             {% elsif paginator.previous_page%}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseUrl }}" class="page-item">&laquo;</a>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="page-item">&laquo;</a>
             {% else %}
             <span class="page-item">&laquo;</span>
             {% endif %}
@@ -38,14 +38,14 @@
                 {% if page == paginator.page %}
                 <span class="page-item">{{ page }}</span>
                 {% elsif page == 1 %}
-                <a href="{{ '/index.html' | prepend: site.baseUrl }}" class="page-item">{{ page }}</a>
+                <a href="{{ '/index.html' | prepend: site.baseurl }}" class="page-item">{{ page }}</a>
                 {% else %}
-                <a href="{{ site.paginate_path | prepend: site.baseUrl | replace: ':num', page }}" class="page-item">{{ page }}</a>
+                <a href="{{ site.paginate_path | prepend: site.baseurl | replace: ':num', page }}" class="page-item">{{ page }}</a>
                 {% endif %}
             {% endfor %}
 
             {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseUrl }}" class="page-item">&raquo;</a>
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="page-item">&raquo;</a>
             {% else %}
             <span class="page-item">&raquo;</span>
             {% endif %}

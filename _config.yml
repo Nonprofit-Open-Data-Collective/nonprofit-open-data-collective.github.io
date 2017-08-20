@@ -8,7 +8,7 @@ author:
   url: "npodc.github.io"
 
 # Build settings
-baseUrl: ""  # this must be line 11; see circle_urls.sh
+baseurl: ""  # this must be line 11; see circle_urls.sh
 markdown: kramdown
 source: .
 destination: ./_site  # this must be line 14; see circle_urls.sh
