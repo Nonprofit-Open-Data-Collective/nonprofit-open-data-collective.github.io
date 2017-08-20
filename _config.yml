@@ -8,10 +8,10 @@ author:
   url: "npodc.github.io"
 
 # Build settings
-baseurl: ""  # this must be line 11; see circle_urls.sh
+baseurl: ""
 markdown: kramdown
 source: .
-destination: ./_site  # this must be line 14; see circle_urls.sh
+destination: ./_site
 permalink: "/:title"
 paginate: 8
 paginate_path: /page:num/
