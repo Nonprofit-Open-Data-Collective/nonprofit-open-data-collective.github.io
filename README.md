@@ -24,7 +24,10 @@ To see more detailed instructions for adding a new project ("data") please refer
 
 1. Copy `_packages/990-decoder.html` to `_packages/your_project.html`
 2. Edit `_packages/your_project.html`
-3. Add your logo to `img`
+3. Add your logo to `img/`
+
+If you add a new category tag for your project, edit `_data/package-categories.yml` to add metadata about the new category.
+
 
 #### Running Locally
 
