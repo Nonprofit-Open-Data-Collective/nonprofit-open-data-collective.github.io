@@ -1,6 +1,9 @@
 - subtitle: "Tax Data"
   tag: "tax-data"
   count: 1
+- subtitle: "Financial Data"
+  tag: "financial-data"
+  count: 2
 - subtitle: "3rd Party Projects"
   tag: "external"
-  count: 2
+  count: 3
