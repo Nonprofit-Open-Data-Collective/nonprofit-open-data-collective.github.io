@@ -27,6 +27,7 @@ We develop the following projects:
 
 <div class="panel-group" id="accordion">
     {% for category in site.data.package-categories %}
+        {% if category.tag != 'external' %}
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
@@ -48,5 +49,40 @@ We develop the following projects:
                 </div>
             </div>
         </div>
+        {% endif %}
+   {% endfor %}
+</div>
+
+<div>
+<p>
+We use and support the following projects:
+</p>
+</div>
+
+<div class="panel-group" id="accordion">
+    {% for category in site.data.package-categories %}
+        {% if category.tag == 'external' %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#pr{{ category.tag }}">{{ category.subtitle }}</a>
+                </h4>
+            </div>
+            <div id="pr{{ category.tag }}" class="panel-collapse collapse in">
+                <div class="panel-body">
+        {% for package in site.packages %}
+            {% if package.category == category.tag %}
+                    <li>
+                        <a href="{{ package.github }}" target="_blank"><i class="fa fa-github"> </i></a>
+                        <a href="{{ package.doc }}" target="_blank"><i class="fa fa-home"></i></a>
+                        <a class="package-name" href="{{ package.url | prepend: site.baseUrl }}">{{ package.name }}</a>
+                         - {% if package.one-liner %}{{ package.one-liner }}{% else %}{{ package.description }}{% endif %}
+                    </li>
+            {% endif %}
+         {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
    {% endfor %}
 </div>

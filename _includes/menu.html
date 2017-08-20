@@ -7,6 +7,7 @@
         <a href="#projects" class="list-group-item list-group-item" data-toggle="collapse">Projects <i class="fa fa-caret-down"></i></a>
         <div class="collapse" id="projects">
         {% for category in site.data.package-categories %}
+            {% if category.tag != 'external' %}
             <a href='#{{ category.tag }}' class="list-group-item list-class" data-toggle="collapse" style="color:aqua;font-weight:400">{{ category.subtitle }}</a>
             <div class="collapse" id="{{ category.tag }}" style="color:lime">
             {% for package in site.packages %}
@@ -15,6 +16,7 @@
                 {% endif %}
             {% endfor %}
             </div>
+            {% endif %}
         {% endfor %}
         </div>
 
