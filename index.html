@@ -18,7 +18,7 @@ Welcome to the <span style="font-weight: bold; text-decoration: underline;">Nonp
 </p>
 
 <p>
-We welcome <a href="{{ '/contribute.html' | prepend: site.baseurl }}" target="_blank">contributions</a> and ask that you read about our <a href="{{ '/conduct.html' | prepend: site.baseurl }}" target="_blank">standards of conduct</a>. You are also invited to <a href="{{ '/help.html' | prepend: site.baseurl }}" target="_blank">ask for help</a> on how to use any of these resources.
+We welcome <a href="{{ '/contribute.html' | prepend: site.baseUrl }}" target="_blank">contributions</a> and ask to read our <a href="{{ '/conduct.html' | prepend: site.baseUrl }}" target="_blank">standards of conduct</a>. You are also invited to <a href="{{ '/help.html' | prepend: site.baseUrl }}" target="_blank">ask for help</a> on how to use any of these resources.
 </p>
 
 <p>
@@ -40,7 +40,7 @@ We develop the following projects:
                     <li>
                         <a href="{{ package.github }}" target="_blank"><i class="fa fa-github"> </i></a>
                         <a href="{{ package.doc }}" target="_blank"><i class="fa fa-home"></i></a>
-                        <a class="package-name" href="{{ package.url | prepend: site.baseurl }}">{{ package.name }}</a>
+                        <a class="package-name" href="{{ package.url | prepend: site.baseUrl }}">{{ package.name }}</a>
                          - {% if package.one-liner %}{{ package.one-liner }}{% else %}{{ package.description }}{% endif %}
                     </li>
             {% endif %}
