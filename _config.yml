@@ -24,7 +24,7 @@ blogUrl: "#"
 
 # SEO
 logo: /img/npodc-logo.png
-authorTwitter: 'nipyorg'
+authorTwitter: ''
 gems:
   - jekyll-seo-tag
   - jekyll-paginate

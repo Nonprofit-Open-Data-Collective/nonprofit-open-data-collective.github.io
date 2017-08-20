@@ -1,10 +1,11 @@
 ## About
-nipy.org is built with a custom theme created for Jekyll.
+Nonprofit-Open-Data-Collective.github.io is built with a custom theme created for Jekyll.
 
-- [site](http://www.nipy.org)
-- preview changes with [continuous integration](https://circleci.com/gh/nipy/nipy.github.com/tree/master)
+- [site](https://nonprofit-open-data-collective.github.io/)
+- preview changes with [continuous integration](https://circleci.com/gh/Nonprofit-Open-Data-Collective/Nonprofit-Open-Data-Collective.github.io/tree/master)
 
-[![Circle CI](https://circleci.com/gh/nipy/nipy.github.com.svg?style=svg)](https://circleci.com/gh/nipy/nipy.github.com)
+[![Circle CI](https://circleci.com/gh/Nonprofit-Open-Data-Collective/Nonprofit-Open-Data-Collective.github.io.svg?style=svg)](https://circleci.com/gh/Nonprofit-Open-Data-Collective
+/Nonprofit-Open-Data-Collective.github.io)
 
 ###### Install Jekyll and RubyGems
 
@@ -14,7 +15,7 @@ Refer to the [Jekyll documentation](http://jekyllrb.com) for further help.
 
 #### Quick Start
 
-To see more detailed instructions for adding a new project ("data") please refer to the [Contribute section](http://nipy.org/contribute.html) on the site.
+To see more detailed instructions for adding a new project ("data") please refer to the [Contribute section](http://Nonprofit-Open-Data-Collective.github.io/contribute.html) on the site.
 
 ###### Add a new project
 
