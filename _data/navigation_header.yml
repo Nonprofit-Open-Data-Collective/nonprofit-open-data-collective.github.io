@@ -1,6 +1,6 @@
 # Navbar menu navigation links
 - title: About
-  url: about
+  url: /about
 
 - title: Datasets
   url: /docs/home
