@@ -30,7 +30,7 @@ We have begun the process to catalog and document these resources, and will begi
 
 <br>
 
-### New Ways to Access Data
+# Access Data
 
 We are excited to announce a partnership with Data World to disseminate open data for nonprofit research.
 
@@ -38,19 +38,13 @@ We are excited to announce a partnership with Data World to disseminate open dat
 
 <br>
 
-### Blog on New Data and Research
+# New Data and Research
 
 Check out [blog posts](/news/) on news from the collective.
 
 
-### Discussion Board
 
-If you have questions about using datasets [check here](q_and_a.md).
-
-Or [here](test.html).
-
-
-### Partner Organizations
+# Partner Organizations
 
 This work has been supported through the hard work of academics and experts as many supporting institutions.
 
