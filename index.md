@@ -57,10 +57,5 @@ This work has been supported through the hard work of academics and experts as m
 <img src="/assets/posts/Carleton-University.png" width="300">
 <img src="/assets/posts/maxwell_logo.png" width="300">
 
-![](./assets/posts/The-Aspen-Institute.png)
-![](./assets/posts/charity-navigator-and-guidestar-logos.png)
-![](./assets/posts/Urban_Institute-LOGO.png)
-![](./assets/posts/Arizona_State_University.png)
-![](./assets/posts/Carleton-University.png)
-![](./assets/posts/maxwell_logo.png)
+
 
