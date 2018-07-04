@@ -11,7 +11,7 @@ cta:
     button_text: Contact Us   
     button_url: /contact/  
 section:
-    title: Project Overview
+    title: Overview
     subtitle: This section displays optional page content lorem ipsum
 ---
 
@@ -46,4 +46,14 @@ If you have questions about using datasets [check here](q_and_a.md).
 Or [here](test.html).
 
 
+### Partner Organizations
+
+This work has been supported through the hard work of academics and experts as many supporting institutions.
+
+![](./assets/posts/The-Aspen-Institute.png)
+![](./assets/posts/charity-navigator-and-guidestar-logos.png)
+![](./assets/posts/Urban_Institute-LOGO.png)
+![](./assets/posts/Arizona_State_University_old_signature.svg)
+![](./assets/posts/Carleton-University.png)
+![](./assets/posts/maxwell_logo.png)
 
