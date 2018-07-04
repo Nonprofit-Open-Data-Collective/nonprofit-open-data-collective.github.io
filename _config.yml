@@ -19,8 +19,8 @@ url:                "https://nonprofit-open-data-collective.github.io/"
 
 # Site logo, image or text
 brand:
-    image:          ds_icon.png  # e.g. logo.png, upload logo image file to /assets/img/ folder
-    text:           NODC      # if the above "logo:" image variable  is not set, this text logo is displayed instead
+    image:          # ds_icon.png  # e.g. logo.png, upload logo image file to /assets/img/ folder
+    text:           Nonprofit Open Data Collective      # if the above "logo:" image variable  is not set, this text logo is displayed instead
 
 # Default author settings
 author:
