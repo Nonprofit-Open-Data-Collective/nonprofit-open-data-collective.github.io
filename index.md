@@ -14,8 +14,8 @@ section:
     subtitle: This section displays optional page content lorem ipsum
 cta:
     title: Have question?
-    subtitle: Send us a note
-    button_text: Contact Us   
+    subtitle: Check out our discussion boards or get in touch
+    button_text: Ways to Connect   
     button_url: /contact/ 
 ---
 
