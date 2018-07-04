@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Us
+title: Current Projects
 subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
 author:
 ---
