@@ -10,6 +10,9 @@ cta:
     subtitle: Get in touch with us for details on additional services and custom work pricing
     button_text: Contact Us   
     button_url: /contact/  
+section:
+    title: Project Overview
+    subtitle: This section displays optional page content lorem ipsum
 ---
 
 
