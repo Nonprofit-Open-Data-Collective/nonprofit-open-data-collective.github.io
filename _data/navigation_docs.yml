@@ -5,18 +5,18 @@
   - installation
   - windows
 
-- title: NCCS Data
+- title: European Data
   docs:
   - frontmatter
   - posts
   - drafts
   - pages
 
-- title: Federal Audits
+- title: Federal Audit Data
   docs:
   - frontmatter
 
-- title: Social Capital
+- title: Chinese Foundation Data
   docs:
   - usage
   - structure
