@@ -1,9 +1,9 @@
 # Navbar menu navigation links
-- title: Home
+- title: About
   url: /
 
 - title: Datasets
   url: /news/
 
-- title: Contact
-  url: /contact/
+- title: Blog
+  url: /news/
