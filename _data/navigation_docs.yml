@@ -1,24 +1,28 @@
-- title: Getting Started
+- title: IRS Datasets
   docs:
   - home
   - quickstart
   - installation
   - windows
 
-- title: Account and Billing
+- title: NCCS Data
   docs:
   - frontmatter
   - posts
   - drafts
   - pages
 
-- title: Customization
+- title: Federal Audits
+  docs:
+  - frontmatter
+
+- title: Social Capital
   docs:
   - usage
   - structure
   - configuration
 
-- title: Troubleshooting
+- title: Religious Congregation Data
   docs:
   - variables
   - collections
