@@ -26,7 +26,15 @@ We have begun the process to catalog and document these resources, and will begi
 
 <br>
 
-### Blog on New Data
+### New Ways to Access Data
+
+We are excited to announce a partnership with Data World to disseminate open data for nonprofit research.
+
+![](./assets/posts/dataworld.jpg)
+
+<br>
+
+### Blog on New Data and Research
 
 Check out [blog posts](/news/) on news from the collective.
 
