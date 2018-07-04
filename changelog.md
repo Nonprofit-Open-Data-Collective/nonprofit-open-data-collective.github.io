@@ -1,6 +1,6 @@
 ---
 layout: changelog
-title: A Short History
+title: A Short History of the Collective
 permalink: /history/
 ---
 
