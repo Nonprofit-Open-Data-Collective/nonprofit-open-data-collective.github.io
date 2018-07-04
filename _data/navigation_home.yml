@@ -2,15 +2,15 @@
 
 - title: Open Datasets
   desc: Check out some of the open data assets contributed by members.
-  icon: settings
+  icon: database
   doc: home
 
 - title: New Research
   desc: Updates on interesting scholarship and news can be found on the blog.
-  icon: credit-card
+  icon: rss
   doc: frontmatter
 
 - title: Join the Community
   desc: Learn about ways that you can contribute or stay up-to-date on the Collective.
-  icon: cog
+  icon: happy
   doc: variables
