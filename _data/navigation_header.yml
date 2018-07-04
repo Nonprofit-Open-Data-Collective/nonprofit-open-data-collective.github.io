@@ -1,6 +1,6 @@
 # Navbar menu navigation links
 - title: About
-  url: /
+  url: about
 
 - title: Datasets
   url: /news/
