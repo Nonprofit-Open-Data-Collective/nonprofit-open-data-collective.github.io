@@ -1,12 +1,12 @@
 # Navbar menu navigation links
 - title: About
-  url: /about
-
-- title: Timeline
   url: /changelog/
   
 - title: Datasets
   url: /docs/home
 
+- title: Projects
+  url: /about
+  
 - title: Blog
   url: /news/
