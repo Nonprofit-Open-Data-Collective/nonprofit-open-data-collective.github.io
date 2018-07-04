@@ -13,7 +13,7 @@ section:
     title: Overview
     subtitle: This section displays optional page content lorem ipsum
 cta:
-    title: Have question?
+    title: Have a question?
     subtitle: Check out our discussion boards or get in touch
     button_text: Ways to Connect   
     button_url: /contact/ 
