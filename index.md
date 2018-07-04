@@ -7,7 +7,7 @@ hero:
     search: false
 cta:
     title: Have question?
-    subtitle: We are committed to supporting cutting edge scholarship in the nonprofit sector
+    subtitle: Send us a note
     button_text: Contact Us   
     button_url: /contact/  
 section:
