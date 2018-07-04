@@ -2,7 +2,7 @@
 layout: home
 hero:
     title: Collect. Document. Release. 
-    subtitle: Building open data assets to support nonprofit research.
+    subtitle: Building open data assets to support the nonprofit sector.
     image: ds_icon.png
     search: false
 cta:
