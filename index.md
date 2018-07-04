@@ -6,8 +6,8 @@ hero:
     image: ds_icon.png
     search: false
 cta:
-    title: Didn't find an answer to your question?
-    subtitle: Get in touch with us for details on additional services and custom work pricing
+    title: Have question?
+    subtitle: We are committed to supporting cutting edge scholarship in the nonprofit sector
     button_text: Contact Us   
     button_url: /contact/  
 section:
