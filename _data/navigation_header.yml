@@ -1,11 +1,10 @@
 # Navbar menu navigation links
-- title: About
-  url: /history/
+
   
 - title: Datasets
   url: /docs/home
 
-- title: Projects
+- title: Tools
   url: /about
   
 - title: Blog
