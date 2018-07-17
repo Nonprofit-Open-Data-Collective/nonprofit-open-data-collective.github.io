@@ -76,7 +76,7 @@ author:
 
     <p class="uk-text-center light">Use approximate matching to link individuals in your data.
    
-   <br><br>For more examples see:  http://kateto.net/networks-r-igraph </p>
+   <br><br>For more examples see this helpful <a href="http://kateto.net/networks-r-igraph">network tutorial</a>. </p>
 
 </div>
 
