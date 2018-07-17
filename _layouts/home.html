@@ -43,6 +43,8 @@ layout: default
 </div>
 {% endif %}
 
+
+
 {% if page.featured.tag %}
 <div class="uk-section uk-text-center">
     <div class="uk-container uk-container-small">
@@ -62,6 +64,14 @@ layout: default
 </div>
 {% endif %}
 
+
+{% if page.cta.button_url contains 'http' %}
+    {% assign domain = '' %}
+{% else %}
+    {% assign domain = relative_url %}
+{% endif %}
+
+
 {% if page.section %}
 <div class="uk-section uk-text-center">
     <div class="uk-container uk-container-small">
@@ -77,11 +87,9 @@ layout: default
 </div>
 {% endif %}
 
-{% if page.cta.button_url contains 'http' %}
-    {% assign domain = '' %}
-{% else %}
-    {% assign domain = relative_url %}
-{% endif %}
+
+
+
 
 
 {% if page.cta %}
