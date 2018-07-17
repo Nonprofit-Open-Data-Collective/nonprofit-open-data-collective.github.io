@@ -8,6 +8,8 @@ layout: default
     {% assign columns = 3 %}
 {% endif %}
 
+
+
 {% if page.categories %}
 <div class="uk-section">
     <div class="uk-container">
@@ -45,6 +47,7 @@ layout: default
 
 
 
+
 {% if page.featured.tag %}
 <div class="uk-section uk-text-center">
     <div class="uk-container uk-container-small">
@@ -65,11 +68,28 @@ layout: default
 {% endif %}
 
 
+
+
+
 {% if page.cta.button_url contains 'http' %}
     {% assign domain = '' %}
 {% else %}
     {% assign domain = relative_url %}
 {% endif %}
+
+{% if page.cta %}
+<div class="uk-section uk-text-center">
+    <div class="uk-container uk-container-small">
+        <div data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+            <h3>{{ page.cta.title }}</h3>
+            {% if page.cta.subtitle %}<p class="subtitle uk-text-lead uk-text-center">{{ page.cta.subtitle | escape }}</p>{% endif %}
+            <a class="uk-button uk-button-primary uk-button-large button-cta" href="{{ domain }}{{ page.cta.button_url }}">{{ page.cta.button_text }}</a>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+
 
 
 {% if page.section %}
@@ -92,14 +112,4 @@ layout: default
 
 
 
-{% if page.cta %}
-<div class="uk-section uk-text-center">
-    <div class="uk-container uk-container-small">
-        <div data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
-            <h3>{{ page.cta.title }}</h3>
-            {% if page.cta.subtitle %}<p class="subtitle uk-text-lead uk-text-center">{{ page.cta.subtitle | escape }}</p>{% endif %}
-            <a class="uk-button uk-button-primary uk-button-large button-cta" href="{{ domain }}{{ page.cta.button_url }}">{{ page.cta.button_text }}</a>
-        </div>
-    </div>
-</div>
-{% endif %}
+
