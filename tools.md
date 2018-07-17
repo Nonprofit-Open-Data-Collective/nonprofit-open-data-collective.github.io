@@ -11,13 +11,8 @@ author:
 <br>
 
 
-<h2 class="center orange-text">Research Vignettes</h2>
 
-<p class="center light">Examples of research that use tools from the data science toolkit.</p> 
-
-<br>
-
-<p class="center light">These pages have been built using <a href="http://rmarkdown.rstudio.com/">R Markdown documents</a>.</p>
+<p class="center light">Examples of research tools that can be used to clean, process, or extend your data.</p> 
 
 
 <br>
@@ -31,12 +26,12 @@ author:
 
  <div class="icon-block">
    <a href="https://lecy.github.io/arnova-2017-workshop/workshop/coding_gender.html">
-   <h1 class="center" style="color:Orange;"><i data-uk-icon="icon: database; ratio: 5" class=""></i></h1></a>
+   <h1 class="uk-center" style="color:Orange;"><i data-uk-icon="icon: user; ratio: 5" class=""></i></h1></a>
    <h3 class="center">Gender Pay Equity</h3>
 
 <div class="col l3 s12"></div>
 <div class="col l6 s12">
-   <p class="center light">An introduction to some of useful tools in the data science ecosystem that will greatly enhance and accelerate the research process. This section covers data-driven documents, APIs, geo-spatial tools, and R packages.</p>
+   <p class="center light">Automate the process of coding the gender of people in your dataset.</p>
 </div>
 </div>
 
@@ -58,7 +53,7 @@ author:
 <div class="icon-block">
   
    <a href="https://lecy.github.io/arnova-2017-workshop/workshop/spatial_example.html">
-   <h1 class="center orange-text"><i class="large material-icons">pin_drop</i></h1></a>
+   <h1 class="uk-center" style="color:Orange;"><i data-uk-icon="icon: location; ratio: 5" class=""></i></h1></a>
    <h3 class="center">Spatial Analysis</h3>
    <div class="col s12 m6"><p class="center light">An introduction to some of useful tools in the data science ecosystem that will greatly enhance and accelerate the research process. This section covers data-driven documents, APIs, geo-spatial tools, and R packages.</p></div>
 
@@ -80,7 +75,7 @@ author:
 <div class="icon-block">
   <div class="col s12 m4">
    <a href="https://lecy.github.io/arnova-2017-workshop/workshop/board_networks.html">
-   <h1 class="center orange-text"><i class="large material-icons">people</i></h1></a>
+   <h1 class="uk-center" style="color:Orange;"><i data-uk-icon="icon: link; ratio: 5" class=""></i></h1></a>
    <h3 class="center">Interlocking Board Networks</h3>
 
    <p class="center light">An introduction to some of useful tools in the data science ecosystem that will greatly enhance and accelerate the research process. This section covers data-driven documents, APIs, geo-spatial tools, and R packages.
