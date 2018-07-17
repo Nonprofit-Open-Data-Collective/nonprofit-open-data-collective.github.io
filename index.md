@@ -48,12 +48,8 @@ Check out [blog posts](/news/) on news from the collective.
 
 This work has been supported through the hard work of academics and experts as many supporting institutions.
 
-<img src="/assets/posts/The-Aspen-Institute.png" width="300"><br>
-<img src="/assets/posts/charity-navigator-and-guidestar-logos.png" width="300"><br>
-<img src="/assets/posts/Urban_Institute-LOGO.png" width="300"><br>
-<img src="/assets/posts/Arizona_State_University.png" width="300"><br>
-<img src="/assets/posts/Carleton-University.png" width="300"><br>
-<img src="/assets/posts/maxwell_logo.png" width="300"><br>
+<img src="/assets/posts/logos.png" width="300"><br>
+
 
 
 
