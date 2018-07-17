@@ -24,11 +24,11 @@ layout: default
         {% for item in site.data.navigation_home %}
             {% if item.title %}
             <!-- {% assign doc_url = item.doc | prepend:"/docs/" | append:"/" %} -->
-            {% assign doc_url = item.doc | prepend:"/" | append:"/" %}
-            {% assign doc = site.docs | where:"url", doc_url | first %}
+            <!-- {% assign doc_url = item.doc | prepend:"/" | append:"/" %} -->
+            <!-- {% assign doc = site.docs | where:"url", doc_url | first %} -->
             <div>
                 <div class="uk-card uk-card-body uk-inline uk-border-rounded">
-                    <a class="uk-position-cover" href="{{ site.baseurl }}{{ doc.url }}"></a>
+                    <a class="uk-position-cover" href="{{ site.baseurl }}{{ item.doc }}"></a>
                     {% if item.icon %}
                     <span data-uk-icon="icon: {{ item.icon }}; ratio: 2" class=""></span>
                     {% endif %}
