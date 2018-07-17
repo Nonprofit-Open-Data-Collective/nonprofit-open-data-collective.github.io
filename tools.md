@@ -12,7 +12,7 @@ author:
 
 
 
-<p class="center light">Examples of research tools that can be used to clean, process, or extend your data.</p> 
+<p class="uk-text-center">Examples of research tools that can be used to clean, process, or extend your data.</p> 
 
 
 <br>
@@ -47,12 +47,12 @@ author:
 
 
 
-<div class="icon-block">
+ <div class="uk-section uk-text-center">
   
    <a href="https://lecy.github.io/arnova-2017-workshop/workshop/spatial_example.html">
    <h1 class="uk-center" style="color:Orange;"><i data-uk-icon="icon: location; ratio: 5" class=""></i></h1></a>
    <h3 class="center">Spatial Analysis</h3>
-   <div class="col s12 m6"><p class="center light">An introduction to some of useful tools in the data science ecosystem that will greatly enhance and accelerate the research process. This section covers data-driven documents, APIs, geo-spatial tools, and R packages.</p></div>
+   <p class="uk-text-center light">Geo-code addresses in your dataset.</p>
 
 </div>
 
@@ -69,16 +69,16 @@ author:
 
 
 
-<div class="icon-block">
-  <div class="col s12 m4">
+ <div class="uk-section uk-text-center">
+
    <a href="https://lecy.github.io/arnova-2017-workshop/workshop/board_networks.html">
    <h1 class="uk-center" style="color:Orange;"><i data-uk-icon="icon: link; ratio: 5" class=""></i></h1></a>
    <h3 class="center">Interlocking Board Networks</h3>
 
-   <p class="center light">An introduction to some of useful tools in the data science ecosystem that will greatly enhance and accelerate the research process. This section covers data-driven documents, APIs, geo-spatial tools, and R packages.
+    <p class="uk-text-center light">Use approximate matching to link individuals in your data.
    
    <br><br>For more examples see:  http://kateto.net/networks-r-igraph </p>
-</div>
+
 </div>
 
 
