@@ -1,7 +1,7 @@
 # Footer navigation links
 
-- title: Help
-  url: /
+- title: Home
+  url: /index/
 
 - title: News
   url: /news/
