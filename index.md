@@ -22,11 +22,7 @@ section:
 
 ### Opening Data for Nonprofit Research
 
-Globally there are dozens of administrative or research databases to track the current population of third sector organizations. This data has oten been released in formats that are not always easy to use - ASCII text files, json files, and XML files. 
-
-In order to make the data accessible to the research community we have created scripts to download, clean, and process data. 
-
-We have begun to catalog and document these resources, and will begin sharing them through the Dataverse Open Data portal:
+Globally there are dozens of administrative or research databases to track the current population of third sector organizations. This data has oten been released in formats that are not always easy to use - ASCII text files, json files, and XML files. In order to make the data accessible to the research community we have created scripts to download, clean, and process data. We have begun to catalog and document these resources, and will begin sharing them through the Dataverse Open Data portal:
 
 <br>
 <br>
