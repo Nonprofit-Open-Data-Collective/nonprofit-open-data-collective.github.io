@@ -3,16 +3,16 @@
 - title: Open Datasets
   desc: Check out some of the open data assets contributed by members.
   icon: database
-  doc: _docs/home
+  doc: /docs/home
 
 - title: Tools
   desc: Learn about some contributed tools for linking or extending data.
   icon: settings
-  doc: /tools
+  url: https://lecy.github.io/arnova-2017-workshop/applications/
   
 - title: New Research
   desc: Updates on interesting scholarship and news can be found on the blog.
   icon: rss
-  doc: news/index
+  doc: /news/index
 
 
