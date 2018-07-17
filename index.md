@@ -29,6 +29,7 @@ In order to make the data accessible to the research community, we have created 
 We have begun the process to catalog and document these resources, and will begin sharing them through the Dataverse Open Data portal:
 
 <br>
+<br>
 
 # Access Data
 
@@ -37,11 +38,7 @@ We are excited to announce a partnership with Data World to disseminate open dat
 ![](./assets/posts/dataworld.jpg)
 
 <br>
-
-# New Data and Research
-
-Check out [blog posts](/news/) on news from the collective.
-
+<br>
 
 
 # Partner Organizations
