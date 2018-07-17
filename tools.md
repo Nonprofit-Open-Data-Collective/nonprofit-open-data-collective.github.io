@@ -27,11 +27,11 @@ author:
  <div class="icon-block">
    <a href="https://lecy.github.io/arnova-2017-workshop/workshop/coding_gender.html">
    <h1 class="uk-center" style="color:Orange;"><i data-uk-icon="icon: user; ratio: 5" class=""></i></h1></a>
-   <h3 class="center">Gender Pay Equity</h3>
+   <h3 class="uk-center">Gender Pay Equity</h3>
 
 <div class="col l3 s12"></div>
 <div class="col l6 s12">
-   <p class="center light">Automate the process of coding the gender of people in your dataset.</p>
+   <p class="uk-center light">Automate the process of coding the gender of people in your dataset.</p>
 </div>
 </div>
 
