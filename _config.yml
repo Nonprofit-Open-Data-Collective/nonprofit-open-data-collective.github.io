@@ -88,6 +88,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - HELP.md
 
 sass:
   style:            compressed
