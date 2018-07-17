@@ -58,7 +58,7 @@ layout: default
         <ul class="uk-list uk-list-large list-featured uk-child-width-1-2@s" data-uk-grid>
         {% for doc in site.docs %}
             {% if doc.tags contains page.featured.tag %}
-            <li><a href="{{ site.baseurl }}{{ doc.url }}">{{doc.title}}</a></li>
+            <li><a href="{{ site.baseurl }}">{{doc.title}}</a></li>
             {% endif %}
         {% endfor %}
         </ul>
