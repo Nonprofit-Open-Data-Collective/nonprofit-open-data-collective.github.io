@@ -11,11 +11,11 @@ formspree:
 
 Join the **Data and Analytics Common Interest Group** at the annual ARNOVA Conference. 
 
-**Ask a question** through our discussion board or **join** the group Slack channel. 
+**Ask** a question through our discussion board or join the group **Slack** channel. 
 
-**Contribute new datasets** or methods to link and augment data. 
+**Contribute** new datasets or methods to link and augment data. 
 
-**Share solutions**. Send us a link to your GitHub repo that demonstrates interesting methods for building or analyzing nonprofit or third sector data **[Nonprofit-Open-Data-Collective GitHub account](https://github.com/Nonprofit-Open-Data-Collective)**. 
+**Share** solutions. Send us a link to your GitHub repo that demonstrates interesting methods for building or analyzing nonprofit or third sector data **[Nonprofit-Open-Data-Collective GitHub account](https://github.com/Nonprofit-Open-Data-Collective)**. 
 
 **Follow** us on Twitter. **Read** posts on the [blog](https://nonprofit-open-data-collective.github.io/news/). **Subscribe** to our email list. 
 
