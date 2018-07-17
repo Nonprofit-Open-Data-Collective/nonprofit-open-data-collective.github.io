@@ -32,7 +32,7 @@ Globally there are dozens of administrative or research databases to track the c
 <img src="/assets/posts/dataworld.jpg" width="200"><br>
 
 We are excited to announce a partnership with Data World 
-to disseminate open data for nonprofit research.
+<br> to disseminate open data assets.
 
 <br>
 <br>
