@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Tools
 subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
 author:
 ---
@@ -11,8 +10,8 @@ author:
 <br>
 
 
-
-<p class="uk-text-center">Examples of research tools that can be used to clean, process, or extend your data.</p> 
+<h3 class="uk-center" style="color:Orange;">The Data Science Toolkit</h3>
+<p class="uk-text-center">Examples of useful data science tools that can be used to clean, process, or extend your data.</p> 
 
 
 <br>
