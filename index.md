@@ -45,6 +45,9 @@ We are excited to announce a partnership with Data World to disseminate open dat
 
 This work has been supported through the hard work of academics and experts as many supporting institutions.
 
+<br>
+<br>
+
 <img src="/assets/posts/logos.png" width="700"><br>
 
 
