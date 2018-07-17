@@ -24,7 +24,7 @@ layout: default
         {% for item in site.data.navigation_home %}
             {% if item.title %}
             <!-- {% assign doc_url = item.doc | prepend:"/docs/" | append:"/" %} -->
-            {% assign doc_url = item.doc %}
+            {% assign doc_url = item.doc | prepend:"/" | append:"/" %}
             {% assign doc = site.docs | where:"url", doc_url | first %}
             <div>
                 <div class="uk-card uk-card-body uk-inline uk-border-rounded">
