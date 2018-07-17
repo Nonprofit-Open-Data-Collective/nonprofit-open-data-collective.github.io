@@ -24,7 +24,7 @@ author:
 
 
  <div class="uk-section uk-text-center">
-   <a href="https://lecy.github.io/arnova-2017-workshop/workshop/coding_gender.html">
+   <a href="https://lecy.github.io/arnova-2017-workshop/workshop/coding_gender.html#">
    <h1 class="uk-center" style="color:Orange;"><i data-uk-icon="icon: user; ratio: 5" class=""></i></h1></a>
    <h3 class="uk-center">Gender Pay Equity</h3>
 
@@ -48,7 +48,7 @@ author:
 
  <div class="uk-section uk-text-center">
   
-   <a href="https://lecy.github.io/arnova-2017-workshop/workshop/spatial_example.html">
+   <a href="https://lecy.github.io/arnova-2017-workshop/workshop/spatial_example.html#">
    <h1 class="uk-center" style="color:Orange;"><i data-uk-icon="icon: location; ratio: 5" class=""></i></h1></a>
    <h3 class="center">Spatial Analysis</h3>
    <p class="uk-text-center light">Geo-code addresses in your dataset.</p>
@@ -70,7 +70,7 @@ author:
 
  <div class="uk-section uk-text-center">
 
-   <a href="https://lecy.github.io/arnova-2017-workshop/workshop/board_networks.html">
+   <a href="https://lecy.github.io/arnova-2017-workshop/workshop/board_networks.html#">
    <h1 class="uk-center" style="color:Orange;"><i data-uk-icon="icon: link; ratio: 5" class=""></i></h1></a>
    <h3 class="center">Interlocking Board Networks</h3>
 
