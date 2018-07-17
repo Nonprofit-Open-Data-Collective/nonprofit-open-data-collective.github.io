@@ -10,8 +10,8 @@ author:
 <br>
 
 
-<h3 class="uk-center" style="color:Orange;">The Data Science Toolkit</h3>
-<p class="uk-text-center">Examples of useful data science tools that can be used to clean, process, or extend your data.</p> 
+<h2 class="uk-text-center" style="color:Orange;">The Data Science Toolkit</h2>
+<p class="uk-text-center">Examples of useful data science tools that can help clean, process, or extend your data.</p> 
 
 
 <br>
