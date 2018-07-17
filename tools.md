@@ -31,7 +31,7 @@ author:
 
  <div class="icon-block">
    <a href="https://lecy.github.io/arnova-2017-workshop/workshop/coding_gender.html">
-   <h1 class="center"><span data-uk-icon="icon: database; ratio: 5" class=""></span></h1></a>
+   <h1 class="center" style="color:Orange;"><i data-uk-icon="icon: database; ratio: 5" class=""></i></h1></a>
    <h3 class="center">Gender Pay Equity</h3>
 
 <div class="col l3 s12"></div>
