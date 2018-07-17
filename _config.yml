@@ -54,7 +54,7 @@ twitter_username:
 
 # Default footer image settings
 footer:
-    copyright:      Made by a <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">human</a> somewhere on the planet earth.
+    copyright:      Made by a <a href="https://www.youtube.com/v/dQw4w9WgXcQ">human</a> somewhere on the planet earth.
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
