@@ -5,13 +5,13 @@ hero:
     subtitle: Building open data assets to support the nonprofit sector.
     image: ds_icon.png
     search: false
+section:
+    title: Overview
+    subtitle: This section displays optional page content lorem ipsum
 categories:
     columns: 3                  # number of category columns; 1, 2, 3, 4
     title: Browse Topics
     subtitle:  
-section:
-    title: Overview
-    subtitle: This section displays optional page content lorem ipsum
 cta:
     title: Have a question?
     subtitle: Our community is our best asset
