@@ -29,13 +29,10 @@ Globally there are dozens of administrative or research databases to track the c
 
 # Access Data
 
-<br>
+<img src="/assets/posts/dataworld.jpg" width="200"><br>
 
-<img src="/assets/posts/dataworld.jpg" width="250"><br>
-
-<br>
-
-We are excited to announce a partnership with Data World to disseminate open data for nonprofit research.
+We are excited to announce a partnership with Data World 
+to disseminate open data for nonprofit research.
 
 <br>
 <br>
