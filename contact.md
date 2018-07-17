@@ -1,21 +1,28 @@
 ---
 layout: contact
-title: Got Any Questions
+title: Join Us
 permalink: /contact/
 formspree:
     email: my_name@gmail.com
     redirect: /thanks/
 ---
 
+The goal of the NP Open Data Collective is to expand research capacity of the field by sharing knowledge about data assets and novel research. There are many ways for you to contribute, get involved, or learn more. 
 
-Model this page off of [R Open Science](https://ropensci.org/community/).
+Join the **Data and Analytics Common Interest Group** at the annual **ARNOVA Conference**. 
 
-Include link to Research Gate project page? 
+**Ask a question** through our discussion board or **join** the group Slack channel. 
 
-Does anyone in the group twit?
+**Contribute new datasets** or methods to link and augment data. [ **LINK** ]
 
-##### Morbi varius in accumsan blandit, elit ligula velit, luctus mattis ante nulla nulla.
+**Share solutions**. Send us a link to your GitHub repo that demonstrates interesting methods for building or analyzing nonprofit or third sector data **[Nonprofit-Open-Data-Collective GitHub account]**(https://github.com/Nonprofit-Open-Data-Collective). 
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+**Follow** us on Twitter. **Read** posts on the [blog](https://nonprofit-open-data-collective.github.io/news/). **Subscribe** to our email list. 
+
+Or get in touch with the group through the contact form below. 
+
+
+
+
 
 
