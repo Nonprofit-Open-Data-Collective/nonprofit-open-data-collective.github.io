@@ -61,7 +61,7 @@ disqus:
     shortname:      # 1234
 
 # Google analytics code, get your code here https://www.google.com/analytics/
-google_analytics:
+google_analytics: UA-122509563-1
 
 # Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
 google_maps_api_key:
