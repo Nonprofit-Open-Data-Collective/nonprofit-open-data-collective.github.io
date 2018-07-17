@@ -5,12 +5,14 @@
   icon: database
   doc: home
 
+- title: Tools
+  desc: Learn about some contributed tools for linking or extending data.
+  icon: settings
+  url: https://lecy.github.io/arnova-2017-workshop/applications/
+  
 - title: New Research
   desc: Updates on interesting scholarship and news can be found on the blog.
   icon: rss
   doc: frontmatter
 
-- title: Connect
-  desc: Learn about ways that you can contribute or stay up-to-date on the Collective.
-  icon: happy
-  doc: variables
+
