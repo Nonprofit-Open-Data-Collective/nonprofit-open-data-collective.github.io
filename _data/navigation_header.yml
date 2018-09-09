@@ -1,8 +1,9 @@
 # Navbar menu navigation links
-
+- title: Home
+  url: /docs/home
   
 - title: Datasets
-  url: /docs/home
+  url: /datasets
 
 - title: Tools
   url: /tools

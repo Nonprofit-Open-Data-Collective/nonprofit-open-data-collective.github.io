@@ -1,0 +1,117 @@
+---
+layout: default
+---
+
+<div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-grid-large" data-uk-grid>
+
+            <div class="sidebar-fixed-width uk-visible@m">
+                <div class="sidebar-docs uk-position-fixed">
+                    {% for section in site.data.navigation_docs %}
+                    <h5>{{ section.title }}</h5>
+                    <ul class="uk-nav uk-nav-default doc-nav">
+                    {% for doc in section.docs %}
+                      {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
+                      {% assign p = site.docs | where:"url", doc_url | first %}
+                      <li class="{% if doc_url == page.url %}uk-active{% endif %}"><a href="{{ p.url }}">{{ p.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="uk-width-1-1 uk-width-expand@m">
+
+                <article class="uk-article">
+
+                    <h1 class="uk-article-title">Datasets</h1>
+                   
+                     <div class="uk-section">
+                    <div class="uk-container uk-container-xsmall">
+        {% for post in paginator.posts %}
+        {% if post.dataset != null %}
+        <div class="uk-card card-post uk-inline uk-border-rounded uk-width-1-1 uk-margin">
+            <a class="uk-position-cover" href="{{ post.url | relative_url }}"></a>
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">{{ post.name_of_dataset }}</h3>
+                         <p class="uk-text-meta uk-margin-remove-top"><time datetime="{{ post.date | date_to_xmlschema }}">
+                            {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+                            {{ post.date | date: date_format }}
+                        </time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+              <table>
+                {% if post.topic_keywords %}
+                <tr>
+                  <td> Type of Data : {{ post.topic_keywords }} </td>
+                </tr>
+                {% endif %}
+                {% if post.geography %}
+                <tr>
+                  <td> Geography : {{ post.geography }} </td>
+                </tr>
+                {% endif %}
+                {% if post.number_of_rows %}
+                <tr>
+                  <td> Number Of Rows : {{ post.number_of_rows }} </td>
+                </tr>
+                {% endif %}
+                {% if post.number_of_columns %}
+                <tr>
+                  <td> Number Of Coloumns : {{ post.number_of_columns }} </td>
+                </tr>
+                {% endif %}
+                {% if post.panel %}
+                <tr>
+                  <td> Panel : {{ post.panel }} </td>
+                </tr>
+                {% endif %}
+                {% if post.time_periods %}
+                <tr>
+                  <td> Time Periods : {{ post.time_periods }} </td>
+                </tr>
+                {% endif %} 
+              </table>
+            </div>
+            <div class="uk-card-footer">
+                <button id="dataset" onclick="location.href='{{ post.link_to_dataset }}'" type="button"> <i id="general" class="fas fa-external-link-alt"></i>Download Dataset </button>
+                <br>
+                <br>
+                <span class="uk-button uk-button-text">Read more &rarr;</span>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+        {% include paginate-blog.html %}
+
+           </div>
+            </div>
+
+                    <hr class="uk-margin-medium">
+
+                    {% include paginate-doc.html %}
+
+                    {% include related-docs.html %}
+
+                    {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
+                </article>
+
+                <script>
+                    // Table of contents scroll to
+                    UIkit.scroll('#markdown-toc a', {
+                        duration: 400,
+                        offset: 120
+                    });
+                </script>
+
+            </div>
+
+    </div>
+</div>
+

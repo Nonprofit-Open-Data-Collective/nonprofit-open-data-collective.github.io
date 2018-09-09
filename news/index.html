@@ -9,6 +9,8 @@ title: What's New in Nonprofit Research?
         <h1 class="uk-article-title">{{ page.title | escape }}</h1>
 
         {% for post in paginator.posts %}
+                {% if post.dataset != null %}
+                {% else %}
         <div class="uk-card card-post uk-inline uk-border-rounded uk-width-1-1 uk-margin">
             <a class="uk-position-cover" href="{{ post.url | relative_url }}"></a>
             <div class="uk-card-header">
@@ -41,6 +43,7 @@ title: What's New in Nonprofit Research?
             </div>
 
         </div>
+        {% endif %}
         {% endfor %}
 
         {% include paginate-blog.html %}
