@@ -70,14 +70,8 @@ google_maps_api_key:
 paginate: 10
 
 # Blog path
+paginate_path:  "/news/:num/"
 
-paginate_multiple:
-  - paginate: 10
-    paginate_path:  "/news/:num/"
-    sub_dir: '/blog'
-  - paginate: 10
-    paginate_path: "/datasets/:num/"
-    sub_dir: '/dataset'
 
 # Path to post content assets directory i.e post images, pdfs etc
 post_assets:        /assets/posts/
@@ -92,7 +86,7 @@ gems:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-avatar
-  - jekyll-paginate-multiple
+
 exclude:
   - Gemfile
   - Gemfile.lock

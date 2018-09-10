@@ -29,7 +29,7 @@ layout: default
                    
                      <div class="uk-section">
                     <div class="uk-container uk-container-xsmall">
-        {% for post in paginator.posts %}
+        {% for post in site.posts %}
         {% if post.dataset != null %}
         <div class="uk-card card-post uk-inline uk-border-rounded uk-width-1-1 uk-margin">
             <a class="uk-position-cover" href="{{ post.url | relative_url }}"></a>
@@ -37,10 +37,7 @@ layout: default
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                     <div class="uk-width-expand">
                         <h3 class="uk-card-title uk-margin-remove-bottom">{{ post.name_of_dataset }}</h3>
-                         <p class="uk-text-meta uk-margin-remove-top"><time datetime="{{ post.date | date_to_xmlschema }}">
-                            {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-                            {{ post.date | date: date_format }}
-                        </time></p>
+                        
                     </div>
                 </div>
             </div>
@@ -88,14 +85,12 @@ layout: default
         {% endif %}
         {% endfor %}
 
-        {% include paginate-blog.html %}
 
            </div>
             </div>
 
                     <hr class="uk-margin-medium">
 
-                    {% include paginate-doc.html %}
 
                     {% include related-docs.html %}
 
