@@ -33,9 +33,13 @@ layout: default
                     </tr>
                     -->
 
+                    <thead>
                     <tr>
                     <th ><span uk-icon="icon: database; ratio: 2" style="color: rgb(140,29,64)"></span>Type Of Data </th>
                     </tr>
+                    </thead>
+                    
+                    <tbody>
 
                     {% if page.type_of_data %}
                     <tr>
@@ -131,9 +135,11 @@ layout: default
                     <tr>
                         <td><br></td>
                     </tr>
+                    </tbody>
+                    
                 </table>
 
-                    <table class="uk-table-striped">
+                    <table class="uk-table uk-table-striped">
                     <tr>
                         <th> <i id="general" uk-icon="icon: download ; ratio: 2" style="color: rgb(140,29,64)"></i> Data Availability </th>
                     </tr>
