@@ -27,21 +27,27 @@ a {
     <article class="uk-article">
     <div class="uk-container uk-container-xsmall">
             {% if page.title %}
-            <h1 class="uk-article-title">{{ page.title }}</h1>
+            <h1 class="uk-text-lead">{{ page.title }}</h1>
             {% else %}
             {% endif %}
+        
+        <hr class="uk-divider-icon">
 
             {% if page.short_description %}
-            <div class="uk-text-large uk-text-muted">  <b>Description:</b> {{page.short_description}} </div>
+            <div class="uk-text uk-text-muted">  <b>Description: </b> {{page.short_description}} </div>
             {% else %}
             {% endif %}
 
             {% if page.topic_keywords %}
-        <div class="uk-text-large uk-text-muted"> <b>Keywords:</b> {{page.topic_keywords}} </div>
+        <div class="uk-text-lead uk-text-muted"> <b>Keywords: </b> {{page.topic_keywords}} </div>
             {% else %}
             {% endif %}
             <br><br>
         </div>
+        
+        <hr class="uk-divider-icon">
+        
+        
  <div  class="uk-section-muted">
     <div class="uk-container uk-container-xsmall">
             <div class="uk-article-content">
@@ -156,7 +162,7 @@ a {
                     </tbody> 
                 </table>
                 
-                <hr class="uk-divider-icon">
+                
                 
                 
                 
@@ -250,7 +256,7 @@ a {
                     
                 </table>
                 
-                <hr class="uk-divider-icon">
+               
         
                     
                 <table class="uk-table uk-table-large">
@@ -285,9 +291,11 @@ a {
 </div>
         
         
-<div class="uk-container uk-container">
+<div class="uk-container uk-container-xsmall">
 <div class="uk-article-content">
 
+    <hr class="uk-divider-icon">
+    
     <br>
     {{ content }}
     
