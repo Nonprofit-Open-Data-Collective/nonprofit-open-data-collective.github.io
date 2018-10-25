@@ -191,14 +191,6 @@ td {
                     {% if page.open_data %}
                     <tr>
                         <td>Open Data </td>
-                        {% if page.open_data contains 'Y' %}
-                        <td><i id="general" class="fas fa-check fa-lg" style="color: rgb(50,205,50);"></i></td>
-                        {% else %}
-                            {% if page.open_data contains 'N' %}
-                            <td><i id="general" class="fas fa-times fa-lg" style= "color: rgb(255,0,0);"></i></td>
-                            {% else %}
-                            {% endif %}
-                        {% endif %}
                         {% if page.open_data_license %}
                         <td> {{ page.open_data_lincense }} </td>
                         {% else %}
@@ -210,16 +202,8 @@ td {
                     {% if page.available_for_download %}
                     <tr>
                         <td> Data Download </td>
-                        {% if page.available_for_download contains 'Y' %}
-                        <td><span uk-icon="icon: check; ratio: 2; color: rgb(50,205,50);"></span></td>
-                        {% else %}
-                            {% if page.available_for_download contains 'N' %}
-                            <td><i id="general" class="fas fa-times fa-lg" style= "color: rgb(255,0,0);"></i></td>
-                            {% else %}
-                            {% endif %}
-                        {% endif %}
                         {% if page.available_for_download %}
-                        <td> <button onclick="location.href='{{ page.link_to_dataset }}'" type="button"> <i id="general" class="fas fa-external-link-alt"></i> Dataset </button></td>
+                        <td> <button class="uk-button-default" href="{{ page.link_to_dataset }}"></td>
                         {% else %}
                         {% endif %}
                     </tr>
@@ -229,16 +213,8 @@ td {
                     {% if page.data_dictionary %}
                     <tr>
                         <td> Data Dictionary </td>
-                        {% if page.data_dictionary contains 'Y' %}
-                        <td><i id="general" class="fas fa-check fa-lg" style="color: rgb(50,205,50);"></td>
-                        {% else %}
-                            {% if page.data_dictionary contains 'N' %}
-                            <td><i id="general" class="fas fa-times fa-lg" style= "color: rgb(255,0,0);"></i></td>
-                            {% else %}
-                            {% endif %}
-                        {% endif %}
                         {% if page.data_dictionary %}
-                        <td> <button class="uk-button-primary" href="{{ page.link_to_data_dictionary }}"> Data Dictionary </button></td>
+                        <td> <button class="uk-button-default" href="{{ page.link_to_data_dictionary }}"> Data Dictionary </button></td>
                         {% else %}
                         {% endif %}
                     </tr>
