@@ -27,7 +27,7 @@ a {
     <article class="uk-article">
     <div class="uk-container uk-container-xsmall">
             {% if page.title %}
-            <h1 class="uk-article-title">{{ page.title }}</h1>
+            <div class="uk-article-title">{{ page.title }}</div>
             {% else %}
             {% endif %}
         
@@ -38,6 +38,8 @@ a {
             <div class="uk-text-lead uk-text-muted">  <b>Description: </b> {{page.short_description}} </div>
             {% else %}
             {% endif %}
+        
+            <br>
 
             {% if page.topic_keywords %}
         <div class="uk-text-lead uk-text-muted"> <b>Keywords: </b> {{page.topic_keywords}} </div>
@@ -69,7 +71,7 @@ a {
 
                     <thead> 
                     <tr>
-                    <th class="uk-width-1-2">  <div class="uk-text-large">  Type Of Data <i uk-icon="icon: database; ratio: 1.5" style="color: rgb(140,29,64)"></i></div> </th>
+                    <th class="uk-width-1-2">  <div class="uk-text-large">  Type Of Data <i uk-icon="icon: database; ratio: 1" style="color: rgb(140,29,64)"></i></div> </th>
                     </tr>
                     </thead>
                     
@@ -173,7 +175,7 @@ a {
 
                 <table class="uk-table">
                     <tr>
-                        <th class="uk-width-1-2"> <div class="uk-text-large">Data Availability <i id="general" uk-icon="icon: download ; ratio: 2" style="color: rgb(140,29,64)"></i> </div> </th>
+                        <th class="uk-width-1-2"> <div class="uk-text-large">Data Availability <i id="general" uk-icon="icon: download ; ratio: 1" style="color: rgb(140,29,64)"></i> </div> </th>
                         <th></th>
                     </tr>
                     <tr><td> <br> </td></tr>
@@ -268,7 +270,7 @@ a {
                     
                 <table class="uk-table">
                     <tr>
-                        <th > <div class="uk-text-large"> Contact Information <span uk-icon="icon: mail; ratio: 2" style="color: rgb(140,29,64)"></span>   </th>
+                        <th > <div class="uk-text-large"> Contact Information <span uk-icon="icon: mail; ratio: 1" style="color: rgb(140,29,64)"></span>   </th>
                         <th></th>   
                     </tr>
                     <tr><td> <br> </td><tr>
