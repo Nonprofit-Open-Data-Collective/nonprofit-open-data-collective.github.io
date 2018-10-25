@@ -14,10 +14,6 @@ td {
     padding: 3px 10px 3px 20px;
     text-align: left;
 }
-a {
-    text-transform: uppercase;
-    font-weight: bold;
-}
 </style>
 
 
@@ -45,10 +41,12 @@ a {
         <div class="uk-text-lead uk-text-muted"> <b>Keywords: </b> {{page.topic_keywords}} </div>
             {% else %}
             {% endif %}
-            <br><br>
+            <br>
       
         
         <hr class="uk-divider-icon">
+        
+        <br>
         
         </div>
         
@@ -71,7 +69,7 @@ a {
 
                     <thead> 
                     <tr>
-                    <th class="uk-width-1-2">  <div class="uk-text-large">  Type Of Data <i uk-icon="icon: database; ratio: 1" style="color: rgb(140,29,64)"></i></div> </th>
+                    <th class="uk-width-1-2">  <div class="uk-text-large">  Type Of Data <i uk-icon="icon: database; ratio: 1.3" style="color: rgb(140,29,64)"></i></div> </th>
                     </tr>
                     </thead>
                     
@@ -175,7 +173,7 @@ a {
 
                 <table class="uk-table">
                     <tr>
-                        <th class="uk-width-1-2"> <div class="uk-text-large">Data Availability <i id="general" uk-icon="icon: download ; ratio: 1" style="color: rgb(140,29,64)"></i> </div> </th>
+                        <th class="uk-width-1-2"> <div class="uk-text-large">Data Availability <i id="general" uk-icon="icon: download ; ratio: 1.2" style="color: rgb(140,29,64)"></i> </div> </th>
                         <th></th>
                     </tr>
                     <tr><td> <br> </td></tr>
@@ -270,7 +268,7 @@ a {
                     
                 <table class="uk-table">
                     <tr>
-                        <th > <div class="uk-text-large"> Contact Information <span uk-icon="icon: mail; ratio: 1" style="color: rgb(140,29,64)"></span>   </th>
+                        <th > <div class="uk-text-large"> Contact Information <span uk-icon="icon: mail; ratio: 1.3" style="color: rgb(140,29,64)"></span>   </th>
                         <th></th>   
                     </tr>
                     <tr><td> <br> </td><tr>
@@ -316,7 +314,9 @@ a {
     <br>
     {{ content }}
     
-    <hr class="uk-margin-medium">
+    <br>
+    <hr class="uk-divider-icon">
+    <br><br>
     
 </div>
 </div>
