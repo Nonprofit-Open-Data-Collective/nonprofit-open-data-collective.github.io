@@ -258,17 +258,21 @@ td {
                     {% if page.name_of_contributor %}
                      <tr>
                         <td uk-leader> Name Of Contributor </td>  
-                        <td>{{ page.name_of_contributor }}</td>
-                        <td> <a class="uk-button uk-button-text uk-button-small" href="mailto:{{page.email_of_contributor}}"> Email Contributor </a></td>
+                        <td>{{ page.name_of_contributor }} 
+                            <a href="mailto:{{page.email_of_contact}}" class="uk-icon-button" uk-icon="mail"></a>
+                            <a class="uk-button uk-button-text uk-button-small" href="mailto:{{page.email_of_contributor}}"> Email</a>
+                        </td>
                     </tr>
                     {% else %}
                     {% endif %}
 
                     {% if page.name_of_contact %}
                      <tr>
-                        <td> Name Of Contact </td>
-                        <td>{{ page.name_of_contact }}</td>
-                        <td> <a href="mailto:{{page.email_of_contact}}" class="uk-icon-button" uk-icon="mail"></a> Email Contact </td>
+                        <td  uk-leader> Name Of Contact </td>
+                        <td>{{ page.name_of_contact }} 
+                            <a href="mailto:{{page.email_of_contact}}" class="uk-icon-button" uk-icon="mail"></a>
+                            <a class="uk-button uk-button-text uk-button-small" href="mailto:{{page.email_of_contact}}"> Email</a>
+                        </td>
                     </tr>
                     {% else %}
                     {% endif %}
