@@ -214,6 +214,8 @@ layout: default
                         <td><br></td>
                     </tr>
 
+                    
+                    
                     <tr>
                         <th><span uk-icon="icon: mail; ratio: 2"></span>  Contact Information </th>
                     </tr>
@@ -221,7 +223,7 @@ layout: default
                      <tr>
                         <td> Name Of Contributor </td>  
                         <td>{{ page.name_of_contributor }}</td>
-                        <td> <a class="uk-button uk-button-secondary uk-button-small" href="'mailto:{{ page.email_of_contributor }}'"> Email Contributor </a></td>
+                        <td> <a class="uk-button uk-button-default uk-button-small" href="mailto:{{page.email_of_contributor}}"> Email Contributor </a></td>
                     </tr>
                     {% else %}
                     {% endif %}
@@ -230,7 +232,7 @@ layout: default
                      <tr>
                         <td> Name Of Contact </td>
                         <td>{{ page.name_of_contact }}</td>
-                        <td> <button onclick="location.href='mailto:{{ page.email_of_contact }}'" type="button"> <i id="general" class="fa fa-envelope"></i> Email Contact </button></td>
+                        <td> <button class="uk-button uk-button-secondary uk-button-small" href='mailto:{{ page.email_of_contact }}'> Email Contact </button></td>
                     </tr>
                     {% else %}
                     {% endif %}
