@@ -3,19 +3,19 @@ layout: default
 ---
 <div class="uk-section">
     <article class="uk-article">
-    <div class="uk-container">
+    <div class="uk-container uk-container-xsmall">
             {% if page.title %}
             <h1 class="uk-article-title">{{ page.title }}</h1>
             {% else %}
             {% endif %}
 
             {% if page.short_description %}
-        <div class="uk-text-large">  <b>Description:</b> {{page.short_description}} </div>
+            <div class="uk-text-large uk-text-muted">  <b>Description:</b> {{page.short_description}} </div>
             {% else %}
             {% endif %}
 
             {% if page.topic_keywords %}
-        <div class="uk-text-large"> <b>Keywords:</b> {{page.topic_keywords}} </div>
+        <div class="uk-text-large uk-text-muted"> <b>Keywords:</b> {{page.topic_keywords}} </div>
             {% else %}
             {% endif %}
             <br>
@@ -30,7 +30,7 @@ layout: default
                     </tr>
 
                     <tr>
-                        <th ><span uk-icon="icon: database; ratio: 3" style="color: rgb(140,29,64)"></span> <h5>Type Of Data</h5> </th>
+                        <th ><span uk-icon="icon: database; ratio: 2" style="color: rgb(140,29,64)"></span> Type Of Data </th>
                     </tr>
 
                     {% if page.type_of_data %}
@@ -232,9 +232,7 @@ layout: default
                      <tr>
                         <td> Name Of Contact </td>
                         <td>{{ page.name_of_contact }}</td>
-                        <td> <a  class="uk-icon-button uk-icon-mail"></a> 
-                            <a class="uk-button uk-button-text uk-button-small" href="mailto:{{page.email_of_contact}}"></a>
-                            <a href="mailto:{{page.email_of_contact}}" class="uk-icon-button" uk-icon="mail"></a> Email Contact </td>
+                        <td> <a href="mailto:{{page.email_of_contact}}" class="uk-icon-button" uk-icon="mail"></a> Email Contact </td>
                     </tr>
                     {% else %}
                     {% endif %}
