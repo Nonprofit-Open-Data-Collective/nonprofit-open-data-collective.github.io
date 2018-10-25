@@ -228,7 +228,7 @@ td {
                             {% endif %}
                         {% endif %}
                         {% if page.data_dictionary %}
-                        <td> <button onclick="location.href='{{ page.link_to_data_dictionary }}'" type="button"> <i id="general" class="fas fa-external-link-alt"></i> Data Dictionary </button></td>
+                        <td> <button class="uk-button uk-button-default uk-button-small" href="{{ page.link_to_data_dictionary }}"> Data Dictionary </button></td>
                         {% else %}
                         {% endif %}
                     </tr>
