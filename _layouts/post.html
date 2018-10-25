@@ -24,13 +24,15 @@ layout: default
     <div class="uk-container uk-container-xsmall">
             <div class="uk-article-content">
                
-                <table id="t02" >
+                <table id="t02" class="uk-table uk-table-divider">
+                    <!--
                     <tr> 
-                        <td><br></td>
+                       <td><br></td>
                     </tr>
+                    -->
 
                     <tr>
-                        <th ><span uk-icon="icon: database; ratio: 2" style="color: rgb(140,29,64)"></span> Type Of Data </th>
+                        <th ><span uk-icon="icon: database; ratio: 2" style="color: rgb(140,29,64); align: right"></span> Type Of Data </th>
                     </tr>
 
                     {% if page.type_of_data %}
@@ -213,9 +215,13 @@ layout: default
                     <tr>
                         <td><br></td>
                     </tr>
+                    
+                  </table>
+                
+                  <br><br>
 
                     
-                    
+                  <table class="uk-table uk-table-small">
                     <tr>
                         <th><span uk-icon="icon: mail; ratio: 3" style="color: rgb(140,29,64)"></span>  Contact Information </th>
                     </tr>
@@ -236,9 +242,11 @@ layout: default
                     </tr>
                     {% else %}
                     {% endif %}
+                    
+                  </table>
 
 
-                 </table>
+                 
                  <br>
              </div>
          </div>
