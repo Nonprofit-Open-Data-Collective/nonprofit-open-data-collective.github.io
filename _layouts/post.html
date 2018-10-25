@@ -36,7 +36,7 @@ td {
             {% else %}
             {% endif %}
         
-            <br>
+            
         
 
             {% if page.short_description %}
@@ -44,7 +44,7 @@ td {
             {% else %}
             {% endif %}
         
-            <br>
+            
 
             {% if page.topic_keywords %}
         <div class="uk-text-lead uk-text-muted"> <b>Keywords: </b> {{page.topic_keywords}} </div>
@@ -238,7 +238,7 @@ td {
                             {% endif %}
                         {% endif %}
                         {% if page.data_dictionary %}
-                        <td> <button href="{{ page.link_to_data_dictionary }}"> Data Dictionary </button></td>
+                        <td> <button class="uk-button-primary" href="{{ page.link_to_data_dictionary }}"> Data Dictionary </button></td>
                         {% else %}
                         {% endif %}
                     </tr>
