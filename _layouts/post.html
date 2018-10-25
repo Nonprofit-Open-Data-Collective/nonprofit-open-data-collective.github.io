@@ -138,8 +138,10 @@ layout: default
                     </tbody>
                     
                 </table>
+                
+                
 
-                    <table class="uk-table uk-table-striped">
+                <table class="uk-table uk-table-striped">
                     <tr>
                         <th> <i id="general" uk-icon="icon: download ; ratio: 2" style="color: rgb(140,29,64)"></i> Data Availability </th>
                     </tr>
@@ -230,7 +232,7 @@ layout: default
         
         
                 
-                  <br><br>
+                  <br>
 
                     
                   <table class="uk-table uk-table-large">
@@ -239,7 +241,7 @@ layout: default
                     </tr>
                     {% if page.name_of_contributor %}
                      <tr>
-                        <td> Name Of Contributor </td>  
+                        <td uk-leader> Name Of Contributor </td>  
                         <td>{{ page.name_of_contributor }}</td>
                         <td> <a class="uk-button uk-button-text uk-button-small" href="mailto:{{page.email_of_contributor}}"> Email Contributor </a></td>
                     </tr>
