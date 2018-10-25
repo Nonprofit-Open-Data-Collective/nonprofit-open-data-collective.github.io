@@ -203,7 +203,7 @@ td {
                     <tr>
                         <td> Data Download </td>
                         {% if page.available_for_download %}
-                        <td> <button class="uk-button-default" href="{{ page.link_to_dataset }}"></td>
+                        <td> <button class="uk-button-default" href="{{ page.link_to_dataset }}"> Download Data </button> </td>
                         {% else %}
                         {% endif %}
                     </tr>
@@ -224,16 +224,8 @@ td {
                     {% if page.production_code_availability %}
                     <tr>
                         <td> Production Code </td>
-                        {% if page.production_code_availability contains'Y' %}
-                        <td><i id="general" class="fas fa-check fa-lg" style="color: rgb(50,205,50);"></td>
-                        {% else %}
-                            {% if page.production_code_availability contains 'N' %}
-                            <td><i id="general" class="fas fa-times fa-lg" style="color: rgb(255,0,0);"></td>
-                            {% else %}
-                            {% endif %}
-                        {% endif %}
                         {% if page.production_code_availability %}
-                        <td> <button onclick="location.href='{{ page.link_to_github }}'" type="button"> <i id="general" class="fas fa-external-link-alt"></i> Production Code </button></td>
+                        <td> <button class="uk-button-default" href="{{ page.link_to_github }}"> Production Code </button> </td>
                         {% else %}
                         {% endif %}
                     </tr>
