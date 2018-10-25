@@ -67,7 +67,7 @@ a {
 
                     {% if page.type_of_data %}
                     <tr>
-                        <td>Type Of Data</td>
+                        <td uk-leader>Type Of Data</td>
                         <td>{{ page.type_of_data  }}</td>
                     </tr>
                     {% else %}
@@ -75,7 +75,7 @@ a {
 
                     {% if page.relational_database %}
                     <tr>
-                        <td>Relational Database</td>
+                        <td uk-leader>Relational Database</td>
                         {% if page.relational_database contains 'Y' %}
                         <td>YES </td>
                         {% else %}
@@ -91,7 +91,7 @@ a {
 
                     {% if page.panel %}
                     <tr>
-                        <td> Panel</td>
+                        <td uk-leader> Panel</td>
                         {% if page.panel contains 'Y' %}
                         <td>YES </td>
                         {% else %}
@@ -107,7 +107,7 @@ a {
  
                     {% if page.time_periods %}
                     <tr>
-                        <td>Time Periods</td>
+                        <td uk-leader>Time Periods</td>
                         <td>{{ page.time_periods }}</td>
                     </tr>
                     {% else %}
@@ -115,7 +115,7 @@ a {
 
                     {% if page.geography %}
                     <tr>
-                        <td>Geography</td>
+                        <td uk-leader>Geography</td>
                         <td>{{ page.geography }}</td>
                     </tr>
                     {% else %}
@@ -123,7 +123,7 @@ a {
 
                     {% if page.number_of_rows %}
                     <tr>
-                        <td>Number Of Rows</td>
+                        <td uk-leader>Number Of Rows</td>
                         <td>{{ page.number_of_rows }}</td>
                     </tr>
                     {% else %}
@@ -131,7 +131,7 @@ a {
 
                     {% if page.number_of_columns %}
                     <tr>
-                        <td>Number Of Coloumns</td>
+                        <td uk-leader>Number Of Coloumns</td>
                         <td>{{ page.number_of_columns }}</td>
                     </tr>
                     {% else %}
@@ -139,7 +139,7 @@ a {
 
                     {% if page.number_of_tables %}
                     <tr>
-                        <td>Number Of Tables</td>
+                        <td uk-leader>Number Of Tables</td>
                         <td>{{ page.number_of_tables }}</td>
                     </tr>
                     {% else %}
@@ -147,20 +147,12 @@ a {
 
                     {% if page.source_of_data %}
                     <tr>
-                        <td>Source Of Data</td>
+                        <td uk-leader>Source Of Data</td>
                         <td>{{ page.source_of_data }}</td>
                     </tr>
                     {% else %}
                     {% endif %}
-
-                    <tr>
-                        <td><br></td>
-                    </tr>
-                    <tr>
-                        <td><br></td>
-                    </tr>
-                    </tbody>
-                    
+                    </tbody> 
                 </table>
                 
                 <hr class="uk-divider-icon">
@@ -168,7 +160,7 @@ a {
                 
                 
 
-                <table class="uk-table uk-table-striped">
+                <table class="uk-table">
                     <tr>
                         <th> <i id="general" uk-icon="icon: download ; ratio: 2" style="color: rgb(140,29,64)"></i> Data Availability </th>
                     </tr>
