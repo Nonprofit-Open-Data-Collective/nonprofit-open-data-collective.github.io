@@ -215,13 +215,13 @@ layout: default
                     </tr>
 
                     <tr>
-                        <th><i id="general" uk-icon="icon: card ; ratio: 2" style="color: rgb(140,29,64)"></i>  Contact Information </th>
+                        <th><span uk-icon="icon: card ; ratio: 2" style="color: rgb(140,29,64)"></span>  Contact Information </th>
                     </tr>
                     {% if page.name_of_contributor %}
                      <tr>
                         <td> Name Of Contributor </td>  
                         <td>{{ page.name_of_contributor }}</td>
-                        <td> <button onclick="location.href='mailto:{{ page.email_of_contributor }}'" class="uk-button uk-button-secondary uk-button-small"> <i id="general" class="fa fa-envelope"></i> Email Contributor </button></td>
+                        <td> <a class="uk-button uk-button-secondary uk-button-small" onclick="location.href='mailto:{{ page.email_of_contributor }}'"> Email Contributor </a></td>
                     </tr>
                     {% else %}
                     {% endif %}
