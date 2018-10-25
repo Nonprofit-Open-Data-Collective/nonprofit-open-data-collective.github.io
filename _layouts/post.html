@@ -69,7 +69,7 @@ a {
 
                     <thead> 
                     <tr>
-                    <th class="uk-width-1-2">  <div class="uk-text-large"> <i uk-icon="icon: database; ratio: 2" style="color: rgb(140,29,64)"></i> Type Of Data </div> </th>
+                    <th class="uk-width-1-2">  <div class="uk-text-large">  Type Of Data <i uk-icon="icon: database; ratio: 1.5" style="color: rgb(140,29,64)"></i></div> </th>
                     </tr>
                     </thead>
                     
@@ -173,9 +173,10 @@ a {
 
                 <table class="uk-table">
                     <tr>
-                        <th class="uk-width-1-2"> <i id="general" uk-icon="icon: download ; ratio: 2" style="color: rgb(140,29,64)"></i> Data Availability </th>
+                        <th class="uk-width-1-2"> <div class="uk-text-large">Data Availability <i id="general" uk-icon="icon: download ; ratio: 2" style="color: rgb(140,29,64)"></i> </div> </th>
+                        <th></th>
                     </tr>
-                    <tr><td>  </td></tr>
+                    <tr><td> <br> </td></tr>
                     
                     {% if page.open_data %}
                     <tr>
@@ -267,8 +268,11 @@ a {
                     
                 <table class="uk-table">
                     <tr>
-                        <th ><span uk-icon="icon: mail; ratio: 2" style="color: rgb(140,29,64)"></span>  Contact Information </th>
+                        <th > <div class="uk-text-large"> Contact Information <span uk-icon="icon: mail; ratio: 2" style="color: rgb(140,29,64)"></span>   </th>
+                        <th></th>   
                     </tr>
+                    <tr><td> <br> </td><tr>
+                   
                     {% if page.name_of_contributor %}
                      <tr>
                         <td uk-leader> Name Of Contributor </td>  
