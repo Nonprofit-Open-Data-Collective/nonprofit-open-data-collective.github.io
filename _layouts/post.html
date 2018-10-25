@@ -223,7 +223,7 @@ layout: default
                      <tr>
                         <td> Name Of Contributor </td>  
                         <td>{{ page.name_of_contributor }}</td>
-                        <td> <a class="uk-button uk-button-secondary uk-button-small" href="mailto:{{page.email_of_contributor}}"> Email Contributor </a></td>
+                        <td> <a class="uk-button uk-button-primary uk-button-small" href="mailto:{{page.email_of_contributor}}"> Email Contributor </a></td>
                     </tr>
                     {% else %}
                     {% endif %}
@@ -233,7 +233,7 @@ layout: default
                         <td> Name Of Contact </td>
                         <td>{{ page.name_of_contact }}</td>
                         <td> <a  class="uk-icon-button uk-icon-mail"></a> 
-                            <a href="mailto:{{page.email_of_contact}}" class="uk-icon-button" uk-icon="mail; ratio: 3.5"></a>
+                            <a class="uk-button uk-button-text uk-button-small" href="mailto:{{page.email_of_contact}}"></a>
                             <a href="mailto:{{page.email_of_contact}}" class="uk-icon-button" uk-icon="mail"></a> Email Contact </td>
                     </tr>
                     {% else %}
