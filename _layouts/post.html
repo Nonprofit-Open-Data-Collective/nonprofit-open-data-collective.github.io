@@ -215,13 +215,14 @@ layout: default
                     </tr>
 
                     <tr>
-                        <th><i id="general" class="fas fa-address-card fa-lg" style="color:rgb(140,29,64)"></i> Contact Information </th>
+                        <th><i id="general" class="fas fa-address-card" style="color: rgb(140,29,64)"></i>
+                            <i id="general" data-uk-icon="icon: card ; ratio: 2" style="color: rgb(140,29,64)"></i>  Contact Information </th>
                     </tr>
                     {% if page.name_of_contributor %}
                      <tr>
-                        <td> Name Of Contributor </td>
+                        <td> Name Of Contributor </td>  
                         <td>{{ page.name_of_contributor }}</td>
-                        <td> <button onclick="location.href='mailto:{{ page.email_of_contributor }}'" class="uk-button uk-button-primary"> <i id="general" class="fa fa-envelope"></i> Email Contributor </button></td>
+                        <td> <button onclick="location.href='mailto:{{ page.email_of_contributor }}'" class="uk-button uk-button-secondary uk-button-small"> <i id="general" class="fa fa-envelope"></i> Email Contributor </button></td>
                     </tr>
                     {% else %}
                     {% endif %}
