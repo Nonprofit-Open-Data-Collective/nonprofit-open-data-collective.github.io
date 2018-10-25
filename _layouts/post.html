@@ -154,7 +154,7 @@ layout: default
                     <tr>
                         <td> Data Download </td>
                         {% if page.available_for_download contains 'Y' %}
-                        <td><i id="general" class="fas fa-check fa-lg" style="color: rgb(50,205,50);"></i></td>
+                        <td><span uk-icon="icon: check; ratio: 2; color: rgb(50,205,50);"></span></td>
                         {% else %}
                             {% if page.available_for_download contains 'N' %}
                             <td><i id="general" class="fas fa-times fa-lg" style= "color: rgb(255,0,0);"></i></td>
@@ -215,8 +215,7 @@ layout: default
                     </tr>
 
                     <tr>
-                        <th><i id="general" class="fas fa-address-card" style="color: rgb(140,29,64)"></i>
-                            <i id="general" data-uk-icon="icon: card ; ratio: 2" style="color: rgb(140,29,64)"></i>  Contact Information </th>
+                        <th><i id="general" uk-icon="icon: card ; ratio: 2" style="color: rgb(140,29,64)"></i>  Contact Information </th>
                     </tr>
                     {% if page.name_of_contributor %}
                      <tr>
