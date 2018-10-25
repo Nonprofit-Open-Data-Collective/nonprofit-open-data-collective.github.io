@@ -11,7 +11,7 @@ th {
     text-transform: uppercase;
 }
 td {
-    padding: 3px 10px 3px 10px;
+    padding: 3px 10px 3px 20px;
     text-align: left;
 }
 a {
@@ -27,13 +27,15 @@ a {
     <article class="uk-article">
     <div class="uk-container uk-container-xsmall">
             {% if page.title %}
-            <div class="uk-text-lead">{{ page.title }}</div>
+            <h1 class="uk-article-title">{{ page.title }}</h1>
             {% else %}
             {% endif %}
         
+            <br>
+        
 
             {% if page.short_description %}
-            <div class="uk-text uk-text-muted">  <b>Description: </b> {{page.short_description}} </div>
+            <div class="uk-text-lead uk-text-muted">  <b>Description: </b> {{page.short_description}} </div>
             {% else %}
             {% endif %}
 
@@ -44,9 +46,11 @@ a {
             <br><br>
       
         
+        <hr class="uk-divider-icon">
+        
         </div>
         
-        <hr class="uk-divider-icon">
+        
         
         
  <div class="uk-section-muted">
@@ -65,14 +69,12 @@ a {
 
                     <thead> 
                     <tr>
-                    <th class="uk-width-1-2"><i uk-icon="icon: database; ratio: 1.5" style="color: rgb(140,29,64)"></i>  
-                        <div class="uk-text-large"> Type Of Data </div> </th>
-                    <th></th>
+                    <th class="uk-width-1-2">  <div class="uk-text-large"> <i uk-icon="icon: database; ratio: 2" style="color: rgb(140,29,64)"></i> Type Of Data </div> </th>
                     </tr>
                     </thead>
                     
                     <tbody>
-                    <tr></tr>
+                    <tr><td> <br> </td></tr>
 
                     {% if page.type_of_data %}
                     <tr>
@@ -171,8 +173,10 @@ a {
 
                 <table class="uk-table">
                     <tr>
-                        <th> <i id="general" uk-icon="icon: download ; ratio: 2" style="color: rgb(140,29,64)"></i> Data Availability </th>
+                        <th class="uk-width-1-2"> <i id="general" uk-icon="icon: download ; ratio: 2" style="color: rgb(140,29,64)"></i> Data Availability </th>
                     </tr>
+                    <tr><td>  </td></tr>
+                    
                     {% if page.open_data %}
                     <tr>
                         <td>Open Data </td>
@@ -261,9 +265,9 @@ a {
                
         
                     
-                <table class="uk-table uk-table-large">
+                <table class="uk-table">
                     <tr>
-                        <th><span uk-icon="icon: mail; ratio: 2" style="color: rgb(140,29,64)"></span>  Contact Information </th>
+                        <th ><span uk-icon="icon: mail; ratio: 2" style="color: rgb(140,29,64)"></span>  Contact Information </th>
                     </tr>
                     {% if page.name_of_contributor %}
                      <tr>
@@ -284,6 +288,8 @@ a {
                     {% endif %}
                     
                   </table>
+     
+                  <br><br>
 
 
                  
@@ -293,7 +299,7 @@ a {
 </div>
 
         
-<hr class="uk-divider-icon">
+
 
         
 <div class="uk-container uk-container-xsmall">
