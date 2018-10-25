@@ -1,28 +1,271 @@
 ---
 layout: default
 ---
-
 <div class="uk-section">
+    <article class="uk-article">
+    <div class="uk-container">
+            {% if page.title %}
+            <h1 class="uk-article-title">{{ page.title }}</h1>
+            {% else %}
+            {% endif %}
+
+            {% if page.short_description %}
+        <div class="uk-text-large">  <b>Description:</b> {{page.short_description}} </div>
+            {% else %}
+            {% endif %}
+
+            {% if page.topic_keywords %}
+        <div class="uk-text-large"> <b>Keywords:</b> {{page.topic_keywords}} </div>
+            {% else %}
+            {% endif %}
+            <br>
+        </div>
+ <div  class="uk-section-muted">
     <div class="uk-container uk-container-xsmall">
-        <article class="uk-article">
-
-            <h1 class="uk-article-title">{{ page.title | escape }}</h1>
-
-            <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom">
-            </div>
-
             <div class="uk-article-content">
-                {{ content }}
-                {% include share.html %}
-            </div>
+               
+                <table id="t02" >
+                    <tr> 
+                        <td><br></td>
+                    </tr>
 
-            <hr class="uk-margin-medium">
+                    <tr>
+                        <th >  <i  id="general" class="fas fa-bar-chart fa-lg" ></i> Type Of Data </th>
+                    </tr>
 
+                    {% if page.type_of_data %}
+                    <tr>
+                        <td>Type Of Data</td>
+                        <td>{{ page.type_of_data  }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.relational_database %}
+                    <tr>
+                        <td>Relational Database</td>
+                        {% if page.relational_database contains 'Y' %}
+                        <td>YES </td>
+                        {% else %}
+                            {% if page.relational_database contains 'N' %}
+                            <td> NO </td>
+                            {% else %}
+                            <td> {{ page.relational_database}} </td>
+                            {% endif %}
+                        {% endif %}
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.panel %}
+                    <tr>
+                        <td> Panel</td>
+                        {% if page.panel contains 'Y' %}
+                        <td>YES </td>
+                        {% else %}
+                            {% if page.panel contains 'N' %}
+                            <td> NO </td>
+                            {% else %}
+                            <td> {{ page.panel}} </td>
+                            {% endif %}
+                        {% endif %}
+                    </tr>
+                    {% else %}
+                    {% endif %}
+ 
+                    {% if page.time_periods %}
+                    <tr>
+                        <td>Time Periods</td>
+                        <td>{{ page.time_periods }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.geography %}
+                    <tr>
+                        <td>Geography</td>
+                        <td>{{ page.geography }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.number_of_rows %}
+                    <tr>
+                        <td>Number Of Rows</td>
+                        <td>{{ page.number_of_rows }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.number_of_columns %}
+                    <tr>
+                        <td>Number Of Coloumns</td>
+                        <td>{{ page.number_of_columns }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.number_of_tables %}
+                    <tr>
+                        <td>Number Of Tables</td>
+                        <td>{{ page.number_of_tables }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.source_of_data %}
+                    <tr>
+                        <td>Source Of Data</td>
+                        <td>{{ page.source_of_data }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+
+                    <tr>
+                        <th> <i id="general" data-uk-icon="icon: database ; ratio: 2" style="color: rgb(140,29,64)"></i> Data Availability </th>
+                    </tr>
+                    {% if page.open_data %}
+                    <tr>
+                        <td>Open Data </td>
+                        {% if page.open_data contains 'Y' %}
+                        <td><i id="general" class="fas fa-check fa-lg" style="color: rgb(50,205,50);"></i></td>
+                        {% else %}
+                            {% if page.open_data contains 'N' %}
+                            <td><i id="general" class="fas fa-times fa-lg" style= "color: rgb(255,0,0);"></i></td>
+                            {% else %}
+                            {% endif %}
+                        {% endif %}
+                        {% if page.open_data_license %}
+                        <td> {{ page.open_data_lincense }} </td>
+                        {% else %}
+                        {% endif %}
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.available_for_download %}
+                    <tr>
+                        <td> Data Download </td>
+                        {% if page.available_for_download contains 'Y' %}
+                        <td><i id="general" class="fas fa-check fa-lg" style="color: rgb(50,205,50);"></i></td>
+                        {% else %}
+                            {% if page.available_for_download contains 'N' %}
+                            <td><i id="general" class="fas fa-times fa-lg" style= "color: rgb(255,0,0);"></i></td>
+                            {% else %}
+                            {% endif %}
+                        {% endif %}
+                        {% if page.available_for_download %}
+                        <td> <button onclick="location.href='{{ page.link_to_dataset }}'" type="button"> <i id="general" class="fas fa-external-link-alt"></i> Dataset </button></td>
+                        {% else %}
+                        {% endif %}
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.data_dictionary %}
+                    <tr>
+                        <td> Data Dictionary </td>
+                        {% if page.data_dictionary contains 'Y' %}
+                        <td><i id="general" class="fas fa-check fa-lg" style="color: rgb(50,205,50);"></td>
+                        {% else %}
+                            {% if page.data_dictionary contains 'N' %}
+                            <td><i id="general" class="fas fa-times fa-lg" style= "color: rgb(255,0,0);"></i></td>
+                            {% else %}
+                            {% endif %}
+                        {% endif %}
+                        {% if page.data_dictionary %}
+                        <td> <button onclick="location.href='{{ page.link_to_data_dictionary }}'" type="button"> <i id="general" class="fas fa-external-link-alt"></i> Data Dictionary </button></td>
+                        {% else %}
+                        {% endif %}
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.production_code_availability %}
+                    <tr>
+                        <td> Production Code </td>
+                        {% if page.production_code_availability contains'Y' %}
+                        <td><i id="general" class="fas fa-check fa-lg" style="color: rgb(50,205,50);"></td>
+                        {% else %}
+                            {% if page.production_code_availability contains 'N' %}
+                            <td><i id="general" class="fas fa-times fa-lg" style="color: rgb(255,0,0);"></td>
+                            {% else %}
+                            {% endif %}
+                        {% endif %}
+                        {% if page.production_code_availability %}
+                        <td> <button onclick="location.href='{{ page.link_to_github }}'" type="button"> <i id="general" class="fas fa-external-link-alt"></i> Production Code </button></td>
+                        {% else %}
+                        {% endif %}
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    <tr>
+                        <td><br></td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                    </tr>
+
+                    <tr>
+                        <th><i  id="general" class="fas fa-address-card" style="color: rgb(140,29,64)"></i> Contact Information </th>
+                    </tr>
+                    {% if page.name_of_contributor %}
+                     <tr>
+                        <td> Name Of Contributor </td>
+                        <td>{{ page.name_of_contributor }}</td>
+                        <td> <button onclick="location.href='mailto:{{ page.email_of_contributor }}'" type="button"> <i id="general" class="fa fa-envelope"></i> Email Contributor </button></td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.name_of_contact %}
+                     <tr>
+                        <td> Name Of Contact </td>
+                        <td>{{ page.name_of_contact }}</td>
+                        <td> <button onclick="location.href='mailto:{{ page.email_of_contact }}'" type="button"> <i id="general" class="fa fa-envelope"></i> Email Contact </button></td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+
+                 </table>
+                 <br>
+             </div>
+         </div>
+</div>
+        
+        
+<div class="uk-container uk-container">
+<div class="uk-article-content">
+
+    <br>
+    {{ content }}
+    
+    <hr class="uk-margin-medium">
+    
+</div>
+</div>
+
+ <div class="uk-container uk-container-xsmall">
+     
             {% include paginate-post.html %}
-
+                
+            
             {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
-        </article>
+            
+</div>     
+</article>
 
+<div class="uk-container uk-container-xsmall">
+   
         <script>
             // Table of contents scroll to
             UIkit.scroll('#markdown-toc a', {
@@ -30,6 +273,6 @@ layout: default
                 offset: 120
             });
         </script>
-
-    </div>
+</div> 
 </div>
+
