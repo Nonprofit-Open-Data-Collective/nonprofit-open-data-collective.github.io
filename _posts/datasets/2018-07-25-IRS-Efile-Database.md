@@ -75,7 +75,7 @@ The MasterConcordanceFile.csv included in this repository consists of the follow
 
 #### Acknowledgements
 
-*Created by the [Nonprofit Open Data Collective](https://nonprofit-open-data-collective.github.io/) under the [GPL-3.0](https://opensource.org/licenses/GPL-3.0) open source license for free use by all.*
+Created by the [Nonprofit Open Data Collective](https://nonprofit-open-data-collective.github.io/) under the [GPL-3.0](https://opensource.org/licenses/GPL-3.0) open source license for free use by all.
 
 Many thanks to all of those that have helped generate this file, but especially to the Aspen Institute for hosting the initial ["DATATHON"](https://www.aspeninstitute.org/blog-posts/aspen-institutes-program-philanthropy-social-innovation-psi-hosts-nonprofit-datathon/)event which kicked us off, and to Miguel Barbosa at Citizen Audit for generating a large portion of the first draft of this file. 
 
