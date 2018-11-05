@@ -1,6 +1,6 @@
 # Navbar menu navigation links
 - title: Home
-  url: /docs/home
+  url: /index
   
 - title: Datasets
   url: /datasets
