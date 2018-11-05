@@ -1,15 +1,16 @@
 ---
 layout: post  
 dataset: true
-name_of_dataset: Water Consumption Data   <!-- Enter the name od dataset --> 
-short_description: THe amount of water consumed in a city in a month   <!-- Description of the dataset, what is the dataset all about  -->
-topic_keywords: Water Consumpion, unit in gallons  <!-- Keywords that depict your dataset  -->
-type_of_data: Water Consumption data type <!-- Type of data  -->
+name_of_dataset: IRS 990 E-File Database   <!-- Enter the name od dataset --> 
+short_description: Nonprofit tax information filed annually with the IRS covering finances, program statements, governance, employement, and other topics.   <!-- Description of the dataset, what is the dataset all about  -->
+topic_keywords: US nonprofits, tax forms, IRS 990  <!-- Keywords that depict your dataset  -->
+
+type_of_data: CSV <!-- Type of data  -->
 relational_database: Y <!--Whether a given dataset has relational database or not. Please enter Y for yes and N for no.  --> 
-panel: Not available  <!-- Whether a given dataset has panel or not.please enter Y for yes and N for no.  --> 
-unit_of_analysis: city <!-- Specify the unit of analysis -->
-time_periods: daily  <!-- When the dataset isbeing updated -->
-geography: mountains <!-- The location about where the data is collected -->
+panel: Y  <!-- Whether a given dataset has panel or not.please enter Y for yes and N for no.  --> 
+unit_of_analysis: nonprofit tax form <!-- Specify the unit of analysis -->
+time_periods: 2010-2016  <!-- When the dataset isbeing updated -->
+geography: USA <!-- The location about where the data is collected -->
 number_of_rows: 58K	<!-- Number of rows in a dataset -->
 number_of_columns: 60  <!-- Number of columns in a dataset -->
 number_of_tables: 5  <!-- Number of table in the dataset -->
