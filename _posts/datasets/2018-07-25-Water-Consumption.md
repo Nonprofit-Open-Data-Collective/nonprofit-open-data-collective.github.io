@@ -28,4 +28,53 @@ name_of_contact: Shachi  <!-- Enter the name of contact -->
 email_of_contact: skshah11@asu.edu  <!-- Enter the email adress of the contact -->
 ---
 <!-- Any othe information regarding the data  or a detailed description of data should be entered herre -->
-### Environment
+
+
+# CONCORDANCE OVERVIEW
+
+The Master Concordance File is organized around xpaths, which are the ‘addresses’ that designates the location of data in XML documents. Since the IRS has released the e-filer data in XML format, the xpaths are needed to extract data related to specific variables from a file.
+
+Each row of the Master Concordance File provides documentation for a unique xpath.
+
+Each xpath provides the location for data from a specific field on the 990 form, for example the “total revenue” value a nonprofit enters. As the IRS has updated forms and schemas, xpaths related to a specific field have changed. If you want to collect data over time from the same field, you need to know all xpaths that represent that specific field.
+
+In addition, the same field may or may not be present on multiple forms. Large nonprofits fill out the full 990-PC form, which contains approximately 5,000 variables. Small nonprofits fill out the 990-EZ form, which contains approximately 1,800 variables. Of these, about 1,700 occur on both forms. For this reason, we have created a SCOPE code to describe whether variable occur on one or both forms.
+
+The scope code also differentiate variables related to nonprofits (PC, EZ and PZ codes) versus foundations (PF code).
+
+So in short, the Master Concordance File provides documentation necessary to translate the IRS e-filer data into a structured database, partly by providing the map of xpaths onto fields, and mapping fields across forms onto common variables.
+
+The data dictionary below documents the xpath to variable mapping contained in the Master Concordance File. Click here for a [DATA DICTIONARY](https://nonprofit-open-data-collective.github.io/irs-efile-master-concordance-file/data_dictionary.html) describing unique variables on the 990 forms.
+
+Please submit [QUESTIONS AND ISSUES](https://github.com/Nonprofit-Open-Data-Collective/irs-efile-master-concordance-file/issues/new) through GitHub.
+
+### Concordance Fields
+
+The MasterConcordanceFile.csv included in this repository consists of the following fields:
+
+* **variable_name** - Name of research database variable
+* **description** - Definition of the variable, derived from 990 forms
+* **scope** - Filers to which the variable pertains (small charities, large charities, all charities, foundations)
+* **location_code** - The location of a field (form, part, and line) on the 2016 paper version of forms and schedules
+* **form** - Form on which the field occurs - 990, 990EZ, 990PF, Schedule A - Schedule R
+* **part** - Location of the field on the form
+* **data_type** - Data field type (number, character, address, date, currency, etc.)  
+* **required** - Indicates whether nonprofit filers are required to complete this field  
+* **cardinality** - Is the variable-to-nonprofit relationship one-to-one or one-to-many
+* **rdb_table** - Tables for organizing the data into a relational database  
+* **xpath** - XML address for the data
+* **version** - The XSD schema version that the xpath belongs to
+* **production_rule** - Rules which should be applied to the raw data after extraction to ensure it is meaningful
+* **last_version_modified** - Most recent date the row of data was updated
+
+<br>
+
+
+
+
+#### Acknowledgements
+
+*Created by the [Nonprofit Open Data Collective](https://nonprofit-open-data-collective.github.io/) under the [GPL-3.0](https://opensource.org/licenses/GPL-3.0) open source license for free use by all*.
+
+Many thanks to all of those that have helped generate this file, but especially to the Aspen Institute for hosting the initial ["DATATHON"](https://www.aspeninstitute.org/blog-posts/aspen-institutes-program-philanthropy-social-innovation-psi-hosts-nonprofit-datathon/)event which kicked us off, and to Miguel Barbosa at Citizen Audit for generating a large portion of the first draft of this file. 
+
