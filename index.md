@@ -51,6 +51,17 @@ We are excited to announce a partnership with Data World
 This work has been supported through the hard work of academics and experts as many supporting institutions.
 
 <br>
+<br>
 
 
+# Project Code
+
+<br>
+<a href="https://github.com/Nonprofit-Open-Data-Collective">
+<img src="/assets/posts/github.png" width="200"><br> 
+</a>
+<br>
+
+Code for projects has been posted on the [NODC GitHub](https://github.com/Nonprofit-Open-Data-Collective) page.
+<br><br>
 
