@@ -29,7 +29,9 @@ Globally there are dozens of administrative or research databases to track the c
 
 # Access Data
 
-<img src="/assets/posts/dataworld.jpg" width="200"><br>
+<a href="https://data.world/activity/npdata">
+<img src="/assets/posts/dataworld.jpg" width="200"><br> 
+</a>
 
 We are excited to announce a partnership with Data World 
 <br> to disseminate open data assets.
