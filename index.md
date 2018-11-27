@@ -54,7 +54,7 @@ This work has been supported through the hard work of academics and experts as m
 <br>
 
 
-# Project Code
+# Open Science
 
 <a href="https://github.com/Nonprofit-Open-Data-Collective">
 <img src="/assets/posts/github2.png" width="200"><br> 
