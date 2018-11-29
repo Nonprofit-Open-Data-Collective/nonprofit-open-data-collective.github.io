@@ -1,0 +1,332 @@
+---
+layout: default
+---
+
+
+<style>
+th {
+    padding: 3px 20px 1px 10px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+td {
+    padding: 3px 10px 3px 20px;
+    text-align: left;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+p.italic { 
+    font-style: italic;
+    color: black;
+}
+a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: DarkRed;
+}
+</style>
+
+
+
+
+<div class="uk-section">
+    <article class="uk-article">
+    <div class="uk-container uk-container-xsmall">
+            {% if page.title %}
+            <div class="uk-article-title">{{ page.title }}</div>
+            {% else %}
+            {% endif %}
+        
+            
+        
+
+            {% if page.short_description %}
+            <div class="uk-text-lead uk-text-muted">  <b>Description: </b> {{page.short_description}} </div>
+            {% else %}
+            {% endif %}
+        
+            
+
+            {% if page.topic_keywords %}
+        <div class="uk-text-lead uk-text-muted"> <b>Keywords: </b> {{page.topic_keywords}} </div>
+            {% else %}
+            {% endif %}
+            <br>
+      
+        
+        <hr class="uk-divider-icon">
+        
+        <br>
+        
+        </div>
+        
+        
+        
+        
+ <div class="uk-section-muted">
+ <div class="uk-container uk-container-xsmall">
+            
+ <div class="uk-article-content">
+                
+                <br><br>
+               
+                <table id="t02" class="uk-table">
+                    <!--
+                    <tr> 
+                       <td><br></td>
+                    </tr>
+                    -->
+
+                    <thead> 
+                    <tr>
+                    <th class="uk-width-1-2">  <div class="uk-text-large">  Type Of Data  </th>
+                        <th><i uk-icon="icon: database; ratio: 1.5" style="color: rgb(140,29,64)"></i></div></th>
+                    </tr>
+                    </thead>
+                    
+                    <tbody>
+                    <tr><td> <br> </td></tr>
+
+                    {% if page.type_of_data %}
+                    <tr>
+                        <td uk-leader>Type Of Data</td>
+                        <td>{{ page.type_of_data  }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.relational_database %}
+                    <tr>
+                        <td uk-leader>Relational Database</td>
+                        {% if page.relational_database contains 'Y' %}
+                        <td>YES </td>
+                        {% else %}
+                            {% if page.relational_database contains 'N' %}
+                            <td> NO </td>
+                            {% else %}
+                            <td> {{ page.relational_database}} </td>
+                            {% endif %}
+                        {% endif %}
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.panel %}
+                    <tr>
+                        <td uk-leader> Panel</td>
+                        {% if page.panel contains 'Y' %}
+                        <td>YES </td>
+                        {% else %}
+                            {% if page.panel contains 'N' %}
+                            <td> NO </td>
+                            {% else %}
+                            <td> {{ page.panel}} </td>
+                            {% endif %}
+                        {% endif %}
+                    </tr>
+                    {% else %}
+                    {% endif %}
+ 
+                    {% if page.time_periods %}
+                    <tr>
+                        <td uk-leader>Time Periods</td>
+                        <td>{{ page.time_periods }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.geography %}
+                    <tr>
+                        <td uk-leader>Geography</td>
+                        <td>{{ page.geography }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.number_of_rows %}
+                    <tr>
+                        <td uk-leader>Number Of Rows</td>
+                        <td>{{ page.number_of_rows }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.number_of_columns %}
+                    <tr>
+                        <td uk-leader>Number Of Coloumns</td>
+                        <td>{{ page.number_of_columns }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.number_of_tables %}
+                    <tr>
+                        <td uk-leader>Number Of Tables</td>
+                        <td>{{ page.number_of_tables }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.source_of_data %}
+                    <tr>
+                        <td uk-leader>Source Of Data</td>
+                        <td>{{ page.source_of_data }}</td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+                    </tbody> 
+                </table>
+                
+                <br><br><br>
+                
+                
+                
+
+                <table class="uk-table">
+                    <tr>
+                        <th class="uk-width-1-2"> <div class="uk-text-large">Data Availability </div> </th>
+                        <th> <i id="general" uk-icon="icon: download ; ratio: 1.5" style="color: rgb(140,29,64)"></i> </th>
+                    </tr>
+                    <tr><td> <br> </td></tr>
+                    
+                    {% if page.open_data %}
+                    <tr>
+                        <td>Open Data </td>
+                        {% if page.open_data_license %}
+                        <td> {{ page.open_data_lincense }} </td>
+                        {% else %}
+                        {% endif %}
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.available_for_download %}
+                    <tr>
+                        <td> Data Download </td>
+                        {% if page.available_for_download %}
+                        <td> <button class="uk-button-default" href="{{ page.link_to_dataset }}"> Download Data </button> </td>
+                        {% else %}
+                        {% endif %}
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.data_dictionary %}
+                    <tr>
+                        <td> Data Dictionary </td>
+                        {% if page.data_dictionary %}
+                        <td> <button class="uk-button-default" href="{{ page.link_to_data_dictionary }}"> Data Dictionary </button></td>
+                        {% else %}
+                        {% endif %}
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.production_code_availability %}
+                    <tr>
+                        <td> Production Code </td>
+                        {% if page.production_code_availability %}
+                        <td> <button class="uk-button-default" href="{{ page.link_to_github }}"> Production Code </button> </td>
+                        {% else %}
+                        {% endif %}
+                    </tr>
+                    {% else %}
+                    {% endif %}
+                    
+                </table>
+     
+                <br><br><br>
+     
+                
+               
+        
+                    
+                <table class="uk-table">
+                    <tr>
+                        <th class="uk-width-1-2"> <div class="uk-text-large"> Contact Information    </th>
+                        <th><span uk-icon="icon: mail; ratio: 1.5" style="color: rgb(140,29,64)"></span></th>   
+                    </tr>
+                    <tr><td> <br> </td></tr>
+                   
+                    {% if page.name_of_contributor %}
+                     <tr>
+                        <td uk-leader> Name Of Contributor </td>  
+                        <td>{{ page.name_of_contributor }} 
+                            <a href="mailto:{{page.email_of_contact}}" class="uk-icon-button" uk-icon="mail"></a>
+                            <a class="uk-button uk-button-text uk-button-small" href="mailto:{{page.email_of_contributor}}"> Email</a>
+                        </td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+
+                    {% if page.name_of_contact %}
+                     <tr>
+                        <td  uk-leader> Name Of Contact </td>
+                        <td>{{ page.name_of_contact }} 
+                            <a href="mailto:{{page.email_of_contact}}" class="uk-icon-button" uk-icon="mail"></a>
+                            <a class="uk-button uk-button-text uk-button-small" href="mailto:{{page.email_of_contact}}"> Email</a>
+                        </td>
+                    </tr>
+                    {% else %}
+                    {% endif %}
+                    
+                  </table>
+     
+                  <br><br>
+
+
+                 
+                 <br>
+             </div>
+         </div>
+</div>
+
+        
+
+
+        
+<div class="uk-container uk-container-xsmall">
+<div class="uk-article-content">
+
+    <br>
+    <hr class="uk-divider-icon">
+    
+    <br>
+    {{ content }}
+    
+    <br>
+    <hr class="uk-divider-icon">
+    <br><br>
+    
+</div>
+</div>
+
+ <div class="uk-container uk-container-xsmall">
+     
+            {% include paginate-post.html %}
+                
+            
+            {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
+            
+</div>     
+</article>
+
+<div class="uk-container uk-container-xsmall">
+   
+        <script>
+            // Table of contents scroll to
+            UIkit.scroll('#markdown-toc a', {
+                duration: 400,
+                offset: 120
+            });
+        </script>
+</div> 
+</div>
