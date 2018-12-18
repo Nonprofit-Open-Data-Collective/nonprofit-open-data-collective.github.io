@@ -6,6 +6,16 @@ author:
 
 
 
+<style>
+a{
+    color: maroon;
+    text-decoration: underline;
+    # text-transform: uppercase;
+    font-weight: bold;
+} 
+</style> 
+
+
 <br>
 <br>
 
