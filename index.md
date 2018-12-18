@@ -19,6 +19,15 @@ section:
     subtitle: 
 ---
 
+<style>
+a{
+    color: maroon;
+    text-decoration: underline;
+    # text-transform: uppercase;
+    font-weight: bold;
+} 
+</style> 
+
 
 ### Opening Data for Nonprofit Research
 
