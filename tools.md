@@ -4,12 +4,6 @@ subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imp
 author:
 ---
 
-a{
-    color: maroon;
-    text-decoration: underline;
-    # text-transform: uppercase;
-    # font-weight: bold;
-} 
 
 
 <br>
