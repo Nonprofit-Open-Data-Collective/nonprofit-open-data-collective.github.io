@@ -7,6 +7,14 @@ formspree:
     redirect: /thanks/
 ---
 
+a{
+    color: maroon;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
 The goal of the NP Open Data Collective is to expand research capacity of the field by sharing knowledge about data assets and novel research. There are many ways for you to contribute, get involved, or learn more.
 
 Join the **Data and Analytics Common Interest Group** at the annual ARNOVA Conference. 
