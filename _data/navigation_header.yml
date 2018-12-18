@@ -8,10 +8,11 @@
 - title: Tools
   url: /tools
 
-- title: Blog
+- title: Research
   url: /news/
   
 - title: Discuss
   url: /discuss
 
-
+# - title: Contact
+#   url: /contact
