@@ -1,5 +1,5 @@
 ---
-layout: post  
+layout: data  
 dataset: true
 name_of_dataset: IRS 990 E-File Database   <!-- Enter the name od dataset --> 
 short_description: Nonprofit tax information filed annually with the IRS covering finances, program statements, governance, employement, and other topics.   <!-- Description of the dataset, what is the dataset all about  -->
