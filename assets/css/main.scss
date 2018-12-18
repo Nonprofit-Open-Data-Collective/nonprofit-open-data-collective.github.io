@@ -2,13 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-a{
-    color: maroon;
-    text-decoration: underline;
-    # text-transform: uppercase;
-    font-weight: bold;
-} 
-
 // System fonts
 @import "system-font-css/_system-font";
 
@@ -27,3 +20,10 @@ a{
 
 // Other vendor styles
 @import "syntax-highlighting/github";
+
+a{
+    color: maroon;
+    text-decoration: underline;
+    # text-transform: uppercase;
+    font-weight: bold;
+} 
