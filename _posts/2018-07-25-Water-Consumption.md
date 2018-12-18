@@ -1,5 +1,5 @@
 ---
-layout: post  
+layout: data  
 dataset: true
 name_of_dataset: Water Consumption Data   <!-- Enter the name od dataset --> 
 short_description: THe amount of water consumed in a city in a month   <!-- Description of the dataset, what is the dataset all about  -->
