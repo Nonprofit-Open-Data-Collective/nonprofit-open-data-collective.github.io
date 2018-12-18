@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: Join Us
+title: Join Us!
 permalink: /contact/
 formspree:
     email: jdlecy@asu.edu
