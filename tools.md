@@ -10,7 +10,7 @@ author:
 <br>
 
 
-<h1 class="uk-text-center" style="color:Orange;">The Data Science Toolkit</h1>
+<h1 class="uk-text-center" style="color:maroon;">The Data Science Toolkit</h1>
 <p class="uk-text-center">Examples of useful data science tools that can help clean, process, or extend your data.</p> 
 
 
@@ -25,7 +25,7 @@ author:
 
  <div class="uk-section uk-text-center">
    <a href="https://lecy.github.io/arnova-2017-workshop/workshop/coding_gender.html#">
-   <h1 class="uk-center" style="color:Orange;"><i data-uk-icon="icon: user; ratio: 5" class=""></i></h1></a>
+   <h1 class="uk-center" style="color:maroon;"><i data-uk-icon="icon: user; ratio: 5" class=""></i></h1></a>
    <h3 class="uk-center">Gender Pay Equity</h3>
 
    <p class="uk-text-center light">Automate the process of coding the gender of people in your dataset.</p>
@@ -49,7 +49,7 @@ author:
  <div class="uk-section uk-text-center">
   
    <a href="https://lecy.github.io/arnova-2017-workshop/workshop/spatial_example.html#">
-   <h1 class="uk-center" style="color:Orange;"><i data-uk-icon="icon: location; ratio: 5" class=""></i></h1></a>
+   <h1 class="uk-center" style="color:maroon;"><i data-uk-icon="icon: location; ratio: 5" class=""></i></h1></a>
    <h3 class="center">Spatial Analysis</h3>
    <p class="uk-text-center light">Geo-code addresses in your dataset.</p>
 
