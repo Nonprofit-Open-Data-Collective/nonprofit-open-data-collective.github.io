@@ -3,7 +3,7 @@ layout: contact
 title: Join Us
 permalink: /contact/
 formspree:
-    email: my_name@gmail.com
+    email: jdlecy@asu.edu
     redirect: /thanks/
 ---
 
@@ -11,9 +11,9 @@ The goal of the NP Open Data Collective is to expand research capacity of the fi
 
 Join the **Data and Analytics Common Interest Group** at the annual ARNOVA Conference. 
 
-**Ask** a question through our discussion board or join the group **Slack** channel. 
+**Ask** a question through our [discussion forum](https://nonprofit-open-data-collective.github.io/discuss).
 
-**Contribute** new datasets or methods to link and augment data. 
+**Contribute** [new datasets](https://goo.gl/forms/Axzc2gA1uiETOkh63) or methods to link and augment data. 
 
 **Share** solutions. Send us a link to your GitHub repo that demonstrates interesting methods for building or analyzing nonprofit or third sector data **[Nonprofit-Open-Data-Collective GitHub account](https://github.com/Nonprofit-Open-Data-Collective)**. 
 
