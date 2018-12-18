@@ -71,7 +71,7 @@ author:
  <div class="uk-section uk-text-center">
 
    <a href="https://lecy.github.io/arnova-2017-workshop/workshop/board_networks.html#">
-   <h1 class="uk-center" style="color:Orange;"><i data-uk-icon="icon: link; ratio: 5" class=""></i></h1></a>
+   <h1 class="uk-center" style="color:maroon;"><i data-uk-icon="icon: link; ratio: 5" class=""></i></h1></a>
    <h3 class="center">Interlocking Board Networks</h3>
 
     <p class="uk-text-center light">Use approximate matching to link individuals in your data.
