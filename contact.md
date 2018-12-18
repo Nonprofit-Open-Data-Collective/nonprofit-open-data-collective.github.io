@@ -28,7 +28,7 @@ Join the **Data and Analytics Common Interest Group** at the annual ARNOVA Confe
 
 **Contribute** [new datasets](https://goo.gl/forms/Axzc2gA1uiETOkh63) or methods to link and augment data. 
 
-**Share** solutions. Send us a link to your GitHub repo that demonstrates interesting methods for building or analyzing nonprofit or third sector data **[Nonprofit-Open-Data-Collective GitHub account](https://github.com/Nonprofit-Open-Data-Collective)**. 
+**Share** solutions. Send us a link to your GitHub repo that demonstrates interesting methods for building or analyzing nonprofit or third sector data and we can link it to the [NODC GitHub account](https://github.com/Nonprofit-Open-Data-Collective). 
 
 **Follow** us on Twitter. **[Read](https://nonprofit-open-data-collective.github.io/news/)** posts on the blog. **Subscribe** to our email list. 
 
