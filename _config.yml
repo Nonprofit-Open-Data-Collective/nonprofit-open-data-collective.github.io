@@ -50,9 +50,9 @@ social:
     youtube:
 
 github_info:
-    username:          ds4ps # Github location of the course
+    username:          Nonprofit-Open-Data-Collective # Github location of the course
     branch:            master
-    website-repo:      course_website
+    website-repo:      nonprofit-open-data-collective.github.io
     course-repo:       Data-Science-Class
     
 instructor:
