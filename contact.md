@@ -12,7 +12,7 @@ formspree:
 a{
     color: maroon;
     text-decoration: underline;
-    # text-transform: uppercase;
+    text-transform: uppercase;
     font-weight: bold;
 } 
 </style> 
