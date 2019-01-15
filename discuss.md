@@ -3,16 +3,22 @@ layout: discussions
 ---
 
 
+
+<br>
+<br>
+
+--------------
+
+
+
 ## Discussion Board Etiquette
 
-We are using GitHub Issues for discussion boards to practice posting questions in a style simiilar to popular data science forums like StackOverflow. These discussion boards are amazing resources because you can post complex questions and talented professionals from around the world will help solve your problems FOR FREE! There is some skill involved in asking questions so that they are clear, and providing a simple example that demonstrate your particular problem. This will improve the responses that you receive and avoid annoying community members.
-
-For example, here is a whole blog devoted to [asking clear questions on StackOverflow](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/).
+There is some skill involved in asking questions so that they are clear, and providing a simple example that demonstrate your particular problem. This will improve the responses that you receive. For a more in-depth overview, see the blog devoted to [asking clear questions on StackOverflow](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/).
 
 
 ## Simple Rules for Clear Questions
 
-#### Don't Repeat Questions
+### Don't Repeat Questions
 
 Check the existing list of questions and topics to make sure your questions has not been asked already. Often times the answer already exists, you just need to read a couple of previous discussions.
 
@@ -98,20 +104,11 @@ Colorado      7.9     204       78 38.7
 
 Thus dput() makes it easy for people on the discussion board to re-create your original dataset.
 
-## Style Guides
+#### Write Clear Code
 
-Computer languages have rules that are similar to grammar rules in natural languages. This is called "syntax". Unlike grammar, syntax is strictly enforced in most computer languages because improper syntax will result in code that does not run.
+Computer code for the most part ignores spaces, you don't have punctuation, and you can nest functions, style describes how readable and clear your code is. You can write accurate and functional code that is really hard to interpret. With good style it will be easier to share and maintain.
 
-There is another idiosyncratic aspect of computer code called "style". Since computer code for the most part ignores spaces, you don't have punctuation, and you can nest functions, style describes how readable and clear your code is. You can write accurate and functional code that is really hard to interpret. With good style it will be easier to share and maintain.
-
-There are two popular style guides for R:
-
-* [The Google R Style Guide](https://google.github.io/styleguide/Rguide.xml)
-* [The Tidyverse Style Guide](http://style.tidyverse.org/index.html)
-
-Think of these suggestions as good habits that will make your life easier and will improve your ability to collaborate with others.
-
-My one addition to the style guide was inspired by the German language, which includes this whopper:
+This example was inspired by the German language, which includes this whopper:
 
 > Donaudampfschifffahrtselektrizitätenhauptbetriebswerkbauunterbeamtengesellschaft
 
@@ -127,5 +124,10 @@ Or:
 ```r
 y <- cut( rank( x ), breaks=seq( from=1, to=100, by=10 ), labels=paste( "X", 1:10, sep="" ) )
 ```
+
+Here are two popular style guides for R:
+
+* [The Google R Style Guide](https://google.github.io/styleguide/Rguide.xml)
+* [The Tidyverse Style Guide](http://style.tidyverse.org/index.html)
 
 
