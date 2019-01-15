@@ -45,16 +45,20 @@ What text do we want here?...
 
 
 
-## Discussion Board Etiquette
+
+## Rules for Clear Questions
 
 There is some skill involved in asking questions so that they are clear, and providing a simple example that demonstrate your particular problem. This will improve the responses that you receive. For a more in-depth overview, see the blog devoted to [asking clear questions on StackOverflow](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/).
 
 
-## Simple Rules for Clear Questions
-
 ### Don't Repeat Questions
 
 Check the existing list of questions and topics to make sure your questions has not been asked already. Often times the answer already exists, you just need to read a couple of previous discussions.
+
+#### State Your Goal
+
+Often times people will post code without explaining what they are trying to do. Be clear about your goal so that the problem is easier to spot. 
+
 
 #### Include Your Code 
 
@@ -83,11 +87,36 @@ z <- list( x, y )
 merge( y, z )
 ```
 
-#### State Your Goal
 
-Often times people will post code without explaining what they are trying to do. Be clear about your goal so that the problem is easier to spot. 
+#### Write Clear Code
 
-#### Include Data
+Computer code for the most part ignores spaces, you don't have punctuation, and you can nest functions, style describes how readable and clear your code is. You can write accurate and functional code that is really hard to interpret. With good style it will be easier to share and maintain.
+
+This example was inspired by the German language, which includes this whopper:
+
+> Donaudampfschifffahrtselektrizitätenhauptbetriebswerkbauunterbeamtengesellschaft
+
+It means, "Association for Subordinate Officials of the Head Office Management of the Danube Steamboat Electrical Services". Although technically allowable, these compound German words are impossible to read and pronounce. 
+
+Similarly, your code technically might be correct, but it is much easier to read if you treat each argument as a separate word and use spaces accordingly. Which is easier to understand?
+
+```r
+y<-cut(rank(x),breaks=seq(from=1,to=100,by=10),labels=paste("X",1:10,sep=""))
+```
+Or:
+
+```r
+y <- cut( rank( x ), breaks=seq( from=1, to=100, by=10 ), labels=paste( "X", 1:10, sep="" ) )
+```
+
+Here are two popular style guides for R:
+
+* [The Google R Style Guide](https://google.github.io/styleguide/Rguide.xml)
+* [The Tidyverse Style Guide](http://style.tidyverse.org/index.html)
+
+
+
+#### Include Example Data
 
 You can include data in your questions in a few ways. 
 
@@ -138,30 +167,5 @@ Colorado      7.9     204       78 38.7
 
 Thus dput() makes it easy for people on the discussion board to re-create your original dataset.
 
-#### Write Clear Code
-
-Computer code for the most part ignores spaces, you don't have punctuation, and you can nest functions, style describes how readable and clear your code is. You can write accurate and functional code that is really hard to interpret. With good style it will be easier to share and maintain.
-
-This example was inspired by the German language, which includes this whopper:
-
-> Donaudampfschifffahrtselektrizitätenhauptbetriebswerkbauunterbeamtengesellschaft
-
-It means, "Association for Subordinate Officials of the Head Office Management of the Danube Steamboat Electrical Services". Although technically allowable, these compound German words are impossible to read and pronounce. 
-
-Similarly, your code technically might be correct, but it is much easier to read if you treat each argument as a separate word and use spaces accordingly. Which is easier to understand?
-
-```r
-y<-cut(rank(x),breaks=seq(from=1,to=100,by=10),labels=paste("X",1:10,sep=""))
-```
-Or:
-
-```r
-y <- cut( rank( x ), breaks=seq( from=1, to=100, by=10 ), labels=paste( "X", 1:10, sep="" ) )
-```
-
-Here are two popular style guides for R:
-
-* [The Google R Style Guide](https://google.github.io/styleguide/Rguide.xml)
-* [The Tidyverse Style Guide](http://style.tidyverse.org/index.html)
 
 
