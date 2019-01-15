@@ -3,6 +3,32 @@ layout: discussions
 ---
 
 
+<style>
+a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+</style>
+
+
+
+
+
+
+
+
+<br>
+<br>
+
+--------------
+
+
+## Instructions
+
+What text do we want here?...
+
+
+
 
 <br>
 <br>
