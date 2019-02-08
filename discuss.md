@@ -45,7 +45,7 @@ We invite conversation around data sources, methods, and substantive research th
 <div class="uk-button-group">
 <a class="uk-button uk-button-default" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/methods">Methods</a>
 <a class="uk-button uk-button-default" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/data">Data</a>
-<a class="uk-button uk-button-default" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/training">Training</a>
+<a class="uk-button uk-button-default" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/teaching">Teaching</a>
 </div>
 
 <br>
