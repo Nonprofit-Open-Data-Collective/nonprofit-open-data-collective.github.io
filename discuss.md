@@ -40,7 +40,7 @@ If you have ideas for conference panels or events and are looking for collaborat
 
 ## Discussion Topics
 
-We invite conversation around data sources, methods, and substantive research themes.
+We invite conversation around data sources, methods, and substantive research themes. For questions about code, please see the rules listed below.
 
 <div class="uk-button-group">
 <a class="uk-button uk-button-default" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/methods">Methods</a>
