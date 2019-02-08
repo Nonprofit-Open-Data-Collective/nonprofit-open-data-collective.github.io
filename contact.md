@@ -32,6 +32,13 @@ Or **subscribe** to the Data and Analytics CIG [email list](https://groups.googl
 
 **Ask** a question through the [discussion forum](https://nonprofit-open-data-collective.github.io/discuss).
 
+**Read** about new research on the [blog](https://nonprofit-open-data-collective.github.io/news/). 
+
+**Follow** us on Twitter. 
+
+Or get in touch with the group through the contact form below. 
+
+
 ### Share Solutions
 
 **Contribute** [new datasets](https://goo.gl/forms/Axzc2gA1uiETOkh63) or methods to link and augment data. 
@@ -40,11 +47,7 @@ Share **Methods** by sending us a link to a GitHub repo that demonstrates intere
 
 Create a **Vignette** that we can post on our [Tools](https://nonprofit-open-data-collective.github.io/tools/) page.
 
-**Read** about new research on the [blog](https://nonprofit-open-data-collective.github.io/news/). 
 
-**Follow** us on Twitter. 
-
-Or get in touch with the group through the contact form below. 
 
 
 
