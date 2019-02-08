@@ -26,9 +26,13 @@ Join the [Data and Analytics Common Interest Group](https://nonprofit-open-data-
 
 **Ask** a question through the [discussion forum](https://nonprofit-open-data-collective.github.io/discuss).
 
+**Share Solutions**
+
 **Contribute** [new datasets](https://goo.gl/forms/Axzc2gA1uiETOkh63) or methods to link and augment data. 
 
-**Share** solutions. Send us a link to your GitHub repo that demonstrates interesting methods for building or analyzing nonprofit or third sector data and we can link it to our [github account](https://github.com/Nonprofit-Open-Data-Collective). 
+Share **Methods** by sending us a link to a GitHub repo that demonstrates interesting approaches for building or analyzing data and we can link it to our [github account](https://github.com/Nonprofit-Open-Data-Collective). 
+
+Create a **Vignette** that we can post on our [Tools](https://nonprofit-open-data-collective.github.io/tools/) page.
 
 **Read** about new research on the [blog](https://nonprofit-open-data-collective.github.io/news/). 
 
