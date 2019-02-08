@@ -1,6 +1,5 @@
 ---
 layout: page
-title: ARNOVA
 permalink: /arnova/
 ---
 
