@@ -38,10 +38,6 @@ If you have ideas for conference panels or events and are looking for collaborat
 <a class="uk-button uk-button-primary uk-button-large" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/conferences">Conferences</a>
 
 
-<br>
-
---------------------
-
 ## Topics
 
 We invite conversation around data sources, methods, and substantive research themes.
