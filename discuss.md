@@ -33,29 +33,25 @@ a {
 If you have ideas for conference panels or events and are looking for collaborators, you can suggest and discuss here:
 
 
-<a class="uk-button uk-button-default uk-button-large" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/conferences">Conference Planning</a>
+<a class="uk-button uk-button-primary uk-button-large" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/conferences">Conferences</a>
 
 
-<button class="uk-button uk-button-default uk-button-large" onclick=href ="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/conferences">Conference Planning</button>
-
-
-
-
-<br>
 <br>
 
 --------------------
 
 <br>
-<br>
 
 
-## Instructions
+## Topics
 
-What text do we want here?...
+We invite conversation around data sources, methods, and substantive research themes.
 
-
-
+<div class="uk-button-group">
+<a class="uk-button uk-button-secondary" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/methods">Methods</a>
+<a class="uk-button uk-button-secondary" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/data">Data</a>
+<a class="uk-button uk-button-secondary" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/training">Training</a>
+</div>
 
 <br>
 <br>
