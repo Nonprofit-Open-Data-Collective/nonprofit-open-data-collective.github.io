@@ -22,7 +22,7 @@ a{
 
 The goal of the NP Open Data Collective is to expand research capacity of the field by sharing knowledge about data assets and novel research. There are many ways for you to contribute, get involved, or learn more.
 
-Join the **Data and Analytics Common Interest Group** at the annual ARNOVA Conference. Or **subscribe** to the [email list](https://groups.google.com/forum/#!forum/arnovadatacig). 
+Join the [Data and Analytics Common Interest Group](https://nonprofit-open-data-collective.github.io/arnova/) at the annual [ARNOVA Conference](https://www.arnova.org/). Or **subscribe** to the [email list](https://groups.google.com/forum/#!forum/arnovadatacig). 
 
 **Ask** a question through the [discussion forum](https://nonprofit-open-data-collective.github.io/discuss).
 
