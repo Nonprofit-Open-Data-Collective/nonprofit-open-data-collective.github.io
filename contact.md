@@ -32,7 +32,7 @@ Or **subscribe** to the Data and Analytics CIG [email list](https://groups.googl
 
 **Ask** a question through the [discussion forum](https://nonprofit-open-data-collective.github.io/discuss).
 
-**Share Solutions**
+### Share Solutions
 
 **Contribute** [new datasets](https://goo.gl/forms/Axzc2gA1uiETOkh63) or methods to link and augment data. 
 
