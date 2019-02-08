@@ -38,7 +38,7 @@ If you have ideas for conference panels or events and are looking for collaborat
 <a class="uk-button uk-button-primary uk-button-large" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/conferences">Conferences</a>
 
 
-## Topics
+## Discussion Topics
 
 We invite conversation around data sources, methods, and substantive research themes.
 
@@ -56,9 +56,9 @@ We invite conversation around data sources, methods, and substantive research th
 
 
 
-## Rules for Clear Questions
+## Rules for Questions About Code
 
-There is some skill involved in asking questions so that they are clear, and providing a simple example that demonstrate your particular problem. This will improve the responses that you receive. For a more in-depth overview, see the blog devoted to [asking clear questions on StackOverflow](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/).
+There is some skill involved in asking coding questions so that they are clear, and providing a simple example that demonstrate your particular problem. This will improve the responses that you receive. For a more in-depth overview, see the blog devoted to [asking clear questions on StackOverflow](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/).
 
 
 ### Don't Repeat Questions
