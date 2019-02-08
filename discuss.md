@@ -21,7 +21,9 @@ a {
 
 
 
+You will need a GitHub account to post a question on the discussion board. It is [free to join](https://github.com/join).
 
+Once you have posted a question or a comment you are subscribed to the conversation automatically. You can subscribe to a topic by selecting the "Notification" feature, or similarly unsubscribe.
 
 
 
@@ -39,9 +41,6 @@ If you have ideas for conference panels or events and are looking for collaborat
 <br>
 
 --------------------
-
-<br>
-
 
 ## Topics
 
