@@ -33,9 +33,11 @@ a {
 If you have ideas for conference panels or events and are looking for collaborators, you can suggest and discuss here:
 
 
-<p uk-margin>
-    <button class="uk-button uk-button-default uk-button-large" onclick=href ="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/conferences">Conference Planning</button>
-</p>
+<a class="uk-button uk-button-default uk-button-large" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/conferences">Conference Planning</a>
+
+
+<button class="uk-button uk-button-default uk-button-large" onclick=href ="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/conferences">Conference Planning</button>
+
 
 
 
