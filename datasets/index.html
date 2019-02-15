@@ -2,14 +2,15 @@
 layout: default
 ---
  <div class="uk-section">
-
+  
+   <div class="uk-container uk-container-xsmall">
    <article class="uk-article">
 
        <h1 class="uk-article-title">Datasets</h1>
                    
      
          
-     <div class="uk-container uk-container-xsmall">
+     
          
      {% for post in site.posts %}
      {% if post.dataset != null %}
@@ -89,5 +90,5 @@ layout: default
                 </script>
 
          
-
+  </div>
 </div>
