@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-     <div class="uk-container">
+ <div class="uk-section">
 
-     <article class="uk-article">
+   <article class="uk-article">
 
-     <h1 class="uk-article-title">Datasets</h1>
+       <h1 class="uk-article-title">Datasets</h1>
                    
-     <div class="uk-section">
+     
          
      <div class="uk-container uk-container-xsmall">
          
@@ -69,15 +69,12 @@ layout: default
      {% endfor %}
 
 
-           </div>
-            </div>
 
-                    <hr class="uk-margin-medium">
-
-
-                    {% include related-docs.html %}
-
-                    {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
+         <hr class="uk-margin-medium">
+         {% include related-docs.html %}
+         {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
+          
+          
       </article>
 
          
