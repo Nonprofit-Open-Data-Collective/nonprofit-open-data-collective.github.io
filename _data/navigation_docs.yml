@@ -4,13 +4,9 @@
 
 
 
-- title: European Data
-  datasets:
-  - irs-efile
-
-
 - title: Federal Audit Data
   dictionaries:
+  - efile
   - irs-efile-db
 
 - title: Chinese Foundation Data
@@ -26,5 +22,5 @@
   - assets
 
 - title: IRS Datasets
-  posts:
+  posts/datasets:
   - IRS-Efile-Database
