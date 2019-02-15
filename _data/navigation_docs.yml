@@ -10,8 +10,8 @@
 
 
 - title: Federal Audit Data
-  docs:
-  - frontmatter
+  dictionaries:
+  - irs-efile-db
 
 - title: Chinese Foundation Data
   docs:
