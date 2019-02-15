@@ -5,16 +5,11 @@
 - title: IRS Datasets
   posts/datasets:
   - 2018-07-25-IRS-Efile-Database
-  - quickstart
-  - installation
-  - windows
 
 - title: European Data
-  docs:
-  - frontmatter
-  - posts
-  - drafts
-  - pages
+  datasets:
+  - irs-file
+
 
 - title: Federal Audit Data
   docs:
