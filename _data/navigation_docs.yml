@@ -3,7 +3,7 @@
   url: /datasets
 
 - title: IRS Datasets
-  posts/datasets:
+  posts:
   - 2018-07-25-IRS-Efile-Database
 
 - title: European Data
