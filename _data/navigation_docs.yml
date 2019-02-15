@@ -2,13 +2,11 @@
 - title: Catalog
   url: /datasets
 
-- title: IRS Datasets
-  posts:
-  - 2018-07-25-IRS-Efile-Database
+
 
 - title: European Data
   datasets:
-  - irs-file
+  - irs-efile
 
 
 - title: Federal Audit Data
@@ -26,3 +24,7 @@
   - variables
   - collections
   - assets
+
+- title: IRS Datasets
+  posts:
+  - IRS-Efile-Database
