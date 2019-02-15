@@ -1,16 +1,14 @@
 ---
 layout: default
 ---
-
-<div class="uk-section">
-    <div class="uk-container">
-    <div class="uk-width-1-1 uk-width-expand@m">
+     <div class="uk-container">
 
      <article class="uk-article">
 
      <h1 class="uk-article-title">Datasets</h1>
                    
      <div class="uk-section">
+         
      <div class="uk-container uk-container-xsmall">
          
      {% for post in site.posts %}
@@ -65,10 +63,10 @@ layout: default
         <button id="dataset" onclick="location.href='{{ post.link_to_dataset }}'" type="button"> <i id="general" class="fas fa-external-link-alt"></i>Data Dictionary</button>
         <br>
         </div>
-      </div>
-         
-        {% endif %}
-        {% endfor %}
+            
+     </div>
+     {% endif %}
+     {% endfor %}
 
 
            </div>
@@ -80,8 +78,11 @@ layout: default
                     {% include related-docs.html %}
 
                     {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
-                </article>
+      </article>
 
+         
+         
+         
                 <script>
                     // Table of contents scroll to
                     UIkit.scroll('#markdown-toc a', {
@@ -90,7 +91,6 @@ layout: default
                     });
                 </script>
 
-            </div>
+         
 
-    </div>
 </div>
