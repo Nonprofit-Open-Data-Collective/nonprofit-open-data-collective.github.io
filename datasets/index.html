@@ -4,38 +4,17 @@ layout: default
 
 <div class="uk-section">
     <div class="uk-container">
-        <div class="uk-grid-large" data-uk-grid>
+    <div class="uk-width-1-1 uk-width-expand@m">
 
-            <div class="sidebar-fixed-width uk-visible@m">
-                <div class="sidebar-docs uk-position-fixed">
-                    {% for section in site.data.navigation_docs %}
-                    {% if section.docs !=null %}
-                        <h5>{{ section.title }}</h5>
-                        {% endif %}
-                    <ul class="uk-nav uk-nav-default doc-nav">
-                        {% if section.docs == null %}
-                        <li><a href="{{ section.url }}"><h5>{{ section.title }}</h5></a></li>
-                        {% endif %}
-                    {% for doc in section.dictionaries %}
-                      {% assign doc_url = doc | prepend:"/dictionaries/" | append:"/" %}
-                      {% assign p = site.docs | where:"url", doc_url | first %}
-                      <li class="{% if doc_url == page.url %}uk-active{% endif %}"><a href="{{ p.url }}">{{ p.title }}</a></li>
-                    {% endfor %}
-                    </ul>
-                    {% endfor %}
-                </div>
-            </div>
+     <article class="uk-article">
 
-            <div class="uk-width-1-1 uk-width-expand@m">
-
-                <article class="uk-article">
-
-                     <h1 class="uk-article-title">Datasets</h1>
+     <h1 class="uk-article-title">Datasets</h1>
                    
-                     <div class="uk-section">
-                    <div class="uk-container uk-container-xsmall">
-        {% for post in site.dictionaries %}
-        {% if post.dictionaries != null %}
+     <div class="uk-section">
+     <div class="uk-container uk-container-xsmall">
+         
+     {% for post in site.posts %}
+     {% if post.dictionaries != null %}
         <div class="uk-card card-post uk-inline uk-border-rounded uk-width-1-1 uk-margin">
             <a class="uk-position-cover" href="{{ post.url | relative_url }}"></a>
             <div class="uk-card-header">
@@ -46,6 +25,7 @@ layout: default
                     </div>
                 </div>
             </div>
+            
             <div class="uk-card-body">
               <table>
                 {% if post.topic_keywords %}
@@ -80,13 +60,13 @@ layout: default
                 {% endif %} 
               </table>
             </div>
-            <div class="uk-card-footer">
-                <button id="dataset" onclick="location.href='{{ post.link_to_dataset }}'" type="button"> <i id="general" class="fas fa-external-link-alt"></i>Data Dictionary</button>
-                <br>
-                <br>
-                <span class="uk-button uk-button-text">Read more &rarr;</span>
-            </div>
+       
+        <div class="uk-card-footer">
+        <button id="dataset" onclick="location.href='{{ post.link_to_dataset }}'" type="button"> <i id="general" class="fas fa-external-link-alt"></i>Data Dictionary</button>
+        <br>
         </div>
+      </div>
+         
         {% endif %}
         {% endfor %}
 
