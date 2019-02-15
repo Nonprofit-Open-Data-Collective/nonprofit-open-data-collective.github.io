@@ -3,8 +3,8 @@
   url: /datasets
 
 - title: IRS Datasets
-  docs:
-  - home
+  posts/datasets:
+  - 2018-07-25-IRS-Efile-Database
   - quickstart
   - installation
   - windows
