@@ -6,13 +6,11 @@ permalink: /arnova/
 
 -------------------
 
-<br>
+> A Common Interest Group has been created at ARNOVA as a way to support connections, knowledge dissemination, and mentoring. 
 
-## About
+------------------------
 
-> A [Common Interest Group](https://www.arnova.org/page/CIG) has been created at ARNOVA as a way to support connections, knowledge dissemination, and mentoring. 
-
-"The purpose of a Common Interest Group is to encourage groups of individuals to come together in an organic and flexible way around shared intellectual topics or professional concerns. These groups can be created for the purpose of networking, exchange of information, development of new fields of investigation or around other emerging opportunities."
+"The purpose of a Common Interest Group is to encourage groups of individuals to come together in an organic and flexible way around shared intellectual topics or professional concerns. These groups can be created for the purpose of networking, exchange of information, development of new fields of investigation or around other emerging opportunities."  [CIG](https://www.arnova.org/page/CIG)
 
 The Association for Research on Nonprofit Organizations and Voluntary Action [(ARNOVA)](https://www.arnova.org/page/About) is the U.S.-based, national and international association that connects scholars, teachers, and practice leaders interested in research on nonprofit organizations, voluntary action, philanthropy and civil society. 
 
