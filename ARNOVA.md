@@ -4,11 +4,16 @@ title: Data and Analytics Common Interest Group
 permalink: /arnova/
 ---
 
+
+<br>
 -------------------
 
-> A Common Interest Group has been created at ARNOVA as a way to support connections, knowledge dissemination, and mentoring. 
+> A Common Interest Group has been created at ARNOVA as a way to encourage connections and support research, knowledge dissemination, and mentoring. 
 
 ------------------------
+
+<br>
+
 
 "The purpose of a Common Interest Group is to encourage groups of individuals to come together in an organic and flexible way around shared intellectual topics or professional concerns. These groups can be created for the purpose of networking, exchange of information, development of new fields of investigation or around other emerging opportunities."  [CIG](https://www.arnova.org/page/CIG)
 
