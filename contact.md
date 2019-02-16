@@ -22,7 +22,7 @@ a{
 
 ------
 
-The goal of the NP Open Data Collective is to expand research capacity of the field by sharing knowledge about data assets and novel research. There are many ways for you to contribute, get involved, or learn more.
+The goal of the NP Open Data Collective is to expand research capacity of the field by sharing knowledge about data assets, novel methods, interesting research that was conducted using either, and new technologies that support nonprofits and social impact. There are many ways for you to contribute, get involved, or learn more.
 
 -------
 
