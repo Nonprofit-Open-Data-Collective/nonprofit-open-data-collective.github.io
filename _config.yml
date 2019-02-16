@@ -49,24 +49,8 @@ social:
     vimeo:          # https://vimeo.com/
     youtube:
 
-github_info:
-    username:          Nonprofit-Open-Data-Collective # Github location of the course
-    branch:            master
-    website-repo:      nonprofit-open-data-collective.github.io
-    course-repo:       Data-Science-Class
+
     
-instructor:
--  name: Jesse Lecy
-   title: Professor
-   email: jdlecy@asu.edu
-   website_url: http://www.lecy.info/
-   office_hours_times: Flexible, by appointment
-   office_hours_location:  UCENT 517
-   office_hours_app_url:  https://calendly.com/lecy/15min/
-   github_url: https://github.com/lecy
-   twitter_url: 
-   scholar_url: https://scholar.google.com/citations?user=Ir8H4wMAAAAJ&hl=en
-   linked_in_url:
     
 # Twitter share button
 twitter_username:
