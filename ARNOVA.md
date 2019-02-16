@@ -4,6 +4,10 @@ title: Data and Analytics Common Interest Group
 permalink: /arnova/
 ---
 
+-------------------
+
+<br>
+
 ## About
 
 > A [Common Interest Group](https://www.arnova.org/page/CIG) has been created at ARNOVA as a way to support connections, knowledge dissemination, and mentoring. 
