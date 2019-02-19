@@ -20,11 +20,21 @@ a {
 
 
 
+## Discussion Topics
+
+We invite conversation around data sources, methods, and substantive research themes. For questions about code, please see the rules listed below.
+
+<div class="uk-button-group">
+<a class="uk-button uk-button-default" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/methods">Methods</a>
+<a class="uk-button uk-button-default" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/data">Data</a>
+<a class="uk-button uk-button-default" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/teaching">Teaching</a>
+</div>
+
+<br>
 
 You will need a GitHub account to post a question on the discussion board. It is [free to join](https://github.com/join).
 
 Once you have posted a question or a comment you are subscribed to the conversation automatically. You can subscribe to a topic by selecting the "Notification" feature, or similarly unsubscribe.
-
 
 
 --------------
@@ -37,19 +47,9 @@ If you have ideas for conference panels or events and are looking for collaborat
 
 <a class="uk-button uk-button-primary uk-button-large" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/conferences">Conferences</a>
 
-
-## Discussion Topics
-
-We invite conversation around data sources, methods, and substantive research themes. For questions about code, please see the rules listed below.
-
-<div class="uk-button-group">
-<a class="uk-button uk-button-default" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/methods">Methods</a>
-<a class="uk-button uk-button-default" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/data">Data</a>
-<a class="uk-button uk-button-default" href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/labels/teaching">Teaching</a>
-</div>
-
 <br>
 <br>
+
 
 --------------
 
