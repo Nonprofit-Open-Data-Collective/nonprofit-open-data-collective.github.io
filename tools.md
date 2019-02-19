@@ -4,13 +4,21 @@ subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imp
 author:
 ---
 
-
+<style>
+jj span {
+  float : right; 
+}
+jj uk-icon {
+  float : right; 
+}
+</style>
 
 <br>
 <br>
 
-
+<jj>
 <h1 class="uk-text-center" style="color:maroon;">The Data Science Toolkit</h1>
+ <a href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/blob/master/tools.md"><span uk-icon="icon: github; ratio: 1"></span></a></h1></jj>
 <p class="uk-text-center">Examples of useful data science tools that can help clean, process, or extend your data.</p> 
 
 
