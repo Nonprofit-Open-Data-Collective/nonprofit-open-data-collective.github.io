@@ -32,13 +32,13 @@ We invite conversation around data sources, methods, and substantive research th
 
 <br>
 
-You will need a GitHub account to post a question on the discussion board. It is [free to join](https://github.com/join).
+You will need a free [GitHub account]((https://github.com/join)) to post a question on the discussion board.
 
 Once you have posted a question or a comment you are subscribed to the conversation automatically. You can subscribe to a topic by selecting the "Notification" feature, or similarly unsubscribe.
 
+<br> 
 
 --------------
-
 
 ## Conference Planning
 
