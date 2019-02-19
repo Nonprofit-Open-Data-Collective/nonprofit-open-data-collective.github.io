@@ -12,3 +12,5 @@ A couple of recent publications highlight potential uses of "big data" for tradi
 
 These reports include a variety of non-traditional data sources and many interesting examples. 
 
+![](images/big-data-for-eval.png)
+
