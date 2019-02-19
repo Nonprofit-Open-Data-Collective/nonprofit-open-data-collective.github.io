@@ -32,6 +32,11 @@ authors:
     peter:
         name:       NP-Data
         github:     Nonprofit-Open-Data-Collective    # Github username for avatar
+        
+github_info:
+    username:          Nonprofit-Open-Data-Collective # Github location of the course
+    branch:            master
+    website-repo:      nonprofit-open-data-collective.github.io
 
 # Social icons displayed in footer
 social:
