@@ -2,18 +2,32 @@
 layout: default
 ---
 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+<style>
+li i {
+  float : right; 
+}
+li span {
+  float : right; 
+}
+li uk-icon {
+  float : right; 
+}
+</style>
+
 <div class="uk-section">
     <div class="uk-container uk-container-xsmall">
 
         <article class="uk-article">
 
-            <li><h1 class="uk-article-title">{{ page.title | escape }}<a href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/blob/master/contact.md" class="uk-icon-button" uk-icon="github"></a></h1></li>
+            <h1 class="uk-article-title">{{ page.title | escape }}</h1><li><a href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/blob/master/contact.md" class="uk-icon-button" uk-icon="github"></a></li>
 
                         <li><h1 class="uk-article-title">{{ page.title | escape }}<a href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/blob/master/contact.md"><span uk-icon="icon: github; ratio: 2"></span></a></h1></li>
 
             <li>
                 <a href="#">Link 2 is longer</a> 
-                <i class="fa fa fa-chevron-right push-right"></i>
+                <i class="fa fa-chevron-right push-right"></i>
             </li>
             
             <div class="article-content">
