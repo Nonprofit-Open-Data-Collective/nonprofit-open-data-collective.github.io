@@ -7,8 +7,15 @@ layout: default
 
         <article class="uk-article">
 
-            <h1 class="uk-article-title">{{ page.title | escape }}<a href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/blob/master/contact.md" class="uk-icon-button" uk-icon="github"></a></h1>
+            <li><h1 class="uk-article-title">{{ page.title | escape }}<a href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/blob/master/contact.md" class="uk-icon-button" uk-icon="github"></a></h1></li>
 
+                        <li><h1 class="uk-article-title">{{ page.title | escape }}<a href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/blob/master/contact.md"><span uk-icon="icon: github; ratio: 2"></span></a></h1></li>
+
+            <li>
+                <a href="#">Link 2 is longer</a> 
+                <i class="fa fa fa-chevron-right push-right"></i>
+            </li>
+            
             <div class="article-content">
                 {{ content }}
             </div>
