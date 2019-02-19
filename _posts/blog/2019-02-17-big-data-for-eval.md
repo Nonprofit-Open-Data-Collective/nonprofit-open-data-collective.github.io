@@ -12,7 +12,6 @@ A couple of recent publications highlight potential uses of "big data" for tradi
 
 These reports include a variety of non-traditional data sources and many interesting examples. 
 
-![](https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/master/_posts/blog/images/big-data-for-eval.png)
 
 {% include image.html img="big-data-for-eval.png" style="wide" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
 
