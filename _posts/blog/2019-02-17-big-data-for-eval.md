@@ -14,5 +14,5 @@ These reports include a variety of non-traditional data sources and many interes
 
 ![](/images/big-data-for-eval.png)
 
-{% include image.html img="images/big-data-for-eval.png" style="wide" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
+{% include image.html img="big-data-for-eval.png" style="wide" lightbox="true" alt="Alt for image" caption="Image in lightbox" %}
 
