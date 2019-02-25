@@ -12,6 +12,8 @@ When available, we will post new CSV files of 990 tables on [Data World](https:/
 
 We also have some legacy files on our [Dataverse](https://dataverse.harvard.edu/dataverse/NIOD) site.
 
+You can post questions on the [discussion board](https://nonprofit-open-data-collective.github.io/discuss/).
+
 <br>
 
 
