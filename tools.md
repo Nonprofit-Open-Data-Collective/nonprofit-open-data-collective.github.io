@@ -44,6 +44,18 @@ jj uk-icon {
 ------------------------------------------------------------------   
  
 
+ <div class="uk-section uk-text-center">
+   <a href="https://nonprofit-open-data-collective.github.io/machine_learning_mission_codes/">
+   <h1 class="uk-center" style="color:maroon;"><i data-uk-icon="icon: database; ratio: 5" class=""></i></h1></a>
+   <h3 class="uk-center">Automated Mission Codes</h3>
+
+   <p class="uk-text-center light">Predict nonprofit activity codes from their name, mission, and program description text using machine learning algorithms.</p>
+</div>
+
+<br> 
+
+------------------------------------------------------------------   
+ 
 
 
 
