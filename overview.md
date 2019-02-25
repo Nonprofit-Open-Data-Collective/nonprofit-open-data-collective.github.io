@@ -1,4 +1,6 @@
-# Open Data for Nonprofit Research
+---
+title: Open Data for Nonprofit Research
+---
 
 The IRS maintains several important nonprofit databases to track the current population of exempt organizations, their annual 990 filings, and organizations that have closed. This data has been released in formats that are not always easy to use - ASCII text files, json files, and XML queries. 
 
@@ -26,6 +28,9 @@ We have documented and posted the following open data assets:
 7. **Organizations Granted Tax Exempt Status through 1023-EZ Form:** Data filed electronically on the new shorter 1023-EZ application for 501(c) status.
 
 <br>
+
+## Open NCCS Data
+
 The National Center for Charitable Statistics at the Urban Institute has opened up their data archives!
 
 [NCCS Open Data Portal](http://nccs-data.urban.org/index.php)
@@ -97,7 +102,7 @@ If you are more comfortable in Python, check out Yash Nanavati's [GitHup repo](h
 
 There are some forums on using the E-Filer data, for example [this reddit forum](https://www.reddit.com/r/aws/comments/4p772f/how_the_heck_do_i_view_the_990_documents_on/).
 
-
+Some [example build scripts](https://github.com/Nonprofit-Open-Data-Collective/irs-990-efiler-database/tree/master/BUILD_SCRIPTS).
 
 <br>
 
@@ -107,14 +112,23 @@ There are some forums on using the E-Filer data, for example [this reddit forum]
 
 We provide an R script that builds the INDEX file (not the full dataset) for all IRS E-Filer open data provided on the Amazon Web Server. The index contains a limited number of variables such as nonprofit name, EIN, tax year, form type, and the URL link to the XML form of the 990 return data. This index file allows you to see what is available in the open E-Filer database.
 
- **FORM** | 2009 |  2010 |  2011  | 2012  | 2013  | 2014 |  2015
--------|-------|--------|-------|-------|------|-------|------- 
-**990**  | 33,360 | 123,107 | 159,539 | 179,675 | 198,615 | 215,764 | 73,233
-**990EZ** | 15,500 | 63.253 |  82,066 |  93,769 | 104,425  | 114,822  | 60,967
-**990PF**  | 2,352 | 25,275  | 34,597  | 39,936 | 45,870  | 52,617  | 34,387
+|      |  2009|   2010|   2011|   2012|   2013|   2014|   2015|   2016|  2017|
+|:-----|-----:|------:|------:|------:|------:|------:|------:|------:|-----:|
+|990   | 33,360| 123,107| 159,539| 179,674| 198,738| 218,614| 232,975| 214,585| 25,921|
+|990EZ | 15,500|  63,253|  82,066|  93,769| 104,538| 116,461| 124,507| 121,530| 28,767|
+|990PF |  2,352|  25,275|  34,597|  39,936|  45,897|  53,443|  58,724|  60,305| 20,608|
 
 
-[ [Data Dictionary] ](https://github.com/lecy/Open-Data-for-Nonprofit-Research/blob/master/Open_Nonprofit_Datasets/IRS_E-Filers_Index.Rmd)  [Link to Dataset]
+[ [Data Dictionary] ](https://github.com/lecy/Open-Data-for-Nonprofit-Research/blob/master/Open_Nonprofit_Datasets/IRS_E-Filers_Index.Rmd)  [ [update](https://github.com/Nonprofit-Open-Data-Collective/irs-990-efiler-database/tree/master/BUILD_SCRIPTS) ] [Link to Dataset]
+
+<br>
+
+```r
+# R script for most recent sample:
+source( "https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/irs-990-efiler-database/master/BUILD_SCRIPTS/build_efile_database_functions.R" )
+d <- buildIndex()
+table( d$FormType, d$TaxYear )
+```
 
 <br>
 
@@ -271,7 +285,7 @@ There are some additional interesting sources of nonprofit data that have the po
 
 ## Authors and Contributors
 
-If you are interested in submitting resources or building tools to support nonprofit scholarship please contact Jesse Lecy (jdlecy@syr.edu) or Nathan Grasse (nathangrasse@cunet.carleton.ca).
+If you are interested in submitting resources or building tools to support nonprofit scholarship please contact Jesse Lecy (jdlecy@asu.edu) or Nathan Grasse (nathangrasse@cunet.carleton.ca).
 
 Special thanks to Francisco Santamarina for his meticulous work decoding the IRS XML documents to translate the data into a useful format and creating the Data Dictionary at the heart of this project.
 
