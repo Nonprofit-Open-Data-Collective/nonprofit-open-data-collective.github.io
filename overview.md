@@ -98,7 +98,9 @@ Wikipedia: History of the 990 [ [LINK](https://en.wikipedia.org/wiki/Form_990#Hi
 
 Charity Navigator has created an open-source [990 Toolkit](http://990.charitynavigator.org/) that allows you to set up an Amazon EC2 instance and clone the full IRS dataset as a relational database. You can read their press release about the project [here](http://www.charitynavigator.org/index.cfm?bay=content.view&cpid=4669).
 
-Chad Kruse at SmarterGiving has a script to convert 990-PF XML files into a MongoDB database on GitHub [here](https://github.com/smartergiving/irs-990-fetch).
+Greg Saxton has put together a [Python tutorial](http://social-metrics.org/irs-990-e-file-data-part-1/) for wrangling the AWS data into a MongoDB database.
+
+Similarly, Chad Kruse at SmarterGiving has a script to convert 990-PF XML files into a MongoDB database on GitHub [here](https://github.com/smartergiving/irs-990-fetch).
 
 You can find some useful scripts here for running queries directly within the cloud and downloading data as CSV files, for example [this GitHub gist](https://gist.github.com/ryankanno/a5da4c6f1f8e0136db9623ae1903d23d#form-990).
 
