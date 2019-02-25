@@ -6,11 +6,11 @@ The IRS maintains several important nonprofit databases to track the current pop
 
 In order to make the data accessible to the research community, we have created scripts to download data from IRS websites, clean and process it, and export into familiar formats (CSV, Stata, SPSS, etc.).
 
-We have begun the process to catalog and document these resources, and will begin sharing them through the Nonprofit Open Data Collective portal:
+We have begun the process to catalog and document these resources, and will begin sharing them through the Nonprofit Open Data Collective [Catalog Page](https://nonprofit-open-data-collective.github.io/datasets/).
 
-The most up-to-date files are posted on [Data World](https://data.world/activity/npdata).
+When available, we will post new CSV files of 990 tables on [Data World](https://data.world/activity/npdata).
 
-But we also have some legacy files on our [Dataverse](https://dataverse.harvard.edu/dataverse/NIOD) site.
+We also have some legacy files on our [Dataverse](https://dataverse.harvard.edu/dataverse/NIOD) site.
 
 <br>
 
