@@ -48,11 +48,11 @@ The IRS has released all nonprofit 990 tax data that has been e-filed through th
 
 In order to support use of this data, we have converted the XML files into a research database similar to the NCCS Core dataset.
 
- **FORM** | 2009 |  2010 |  2011  | 2012  | 2013  | 2014 |  2015
--------|-------|--------|-------|-------|------|-------|------- 
-**990**  | 33,360 | 123,107 | 159,539 | 179,675 | 198,615 | 215,764 | 73,233
-**990EZ** | 15,500 | 63.253 |  82,066 |  93,769 | 104,425  | 114,822  | 60,967
-**990PF**  | 2,352 | 25,275  | 34,597  | 39,936 | 45,870  | 52,617  | 34,387
+|      |  2009|   2010|   2011|   2012|   2013|   2014|   2015|   2016|  2017|
+|:-----|-----:|------:|------:|------:|------:|------:|------:|------:|-----:|
+|990   | 33,360| 123,107| 159,539| 179,674| 198,738| 218,614| 232,975| 214,585| 25,921|
+|990EZ | 15,500|  63,253|  82,066|  93,769| 104,538| 116,461| 124,507| 121,530| 28,767|
+|990PF |  2,352|  25,275|  34,597|  39,936|  45,897|  53,443|  58,724|  60,305| 20,608|
 
 Check out a quick guide to working with XML files in R: [ [HTML](Quick_Guide_to_XML_in_R.html) ]  [ [PDF](https://github.com/lecy/Open-Data-for-Nonprofit-Research/blob/master/Resources/Quick_Guide_to_XML_in_R.pdf) ]
 
@@ -118,16 +118,9 @@ Some [example build scripts](https://github.com/Nonprofit-Open-Data-Collective/i
 
 We provide an R script that builds the INDEX file (not the full dataset) for all IRS E-Filer open data provided on the Amazon Web Server. The index contains a limited number of variables such as nonprofit name, EIN, tax year, form type, and the URL link to the XML form of the 990 return data. This index file allows you to see what is available in the open E-Filer database.
 
-|      |  2009|   2010|   2011|   2012|   2013|   2014|   2015|   2016|  2017|
-|:-----|-----:|------:|------:|------:|------:|------:|------:|------:|-----:|
-|990   | 33,360| 123,107| 159,539| 179,674| 198,738| 218,614| 232,975| 214,585| 25,921|
-|990EZ | 15,500|  63,253|  82,066|  93,769| 104,538| 116,461| 124,507| 121,530| 28,767|
-|990PF |  2,352|  25,275|  34,597|  39,936|  45,897|  53,443|  58,724|  60,305| 20,608|
-
 
 [ [Data Dictionary] ](https://github.com/lecy/Open-Data-for-Nonprofit-Research/blob/master/Open_Nonprofit_Datasets/IRS_E-Filers_Index.Rmd)  [ [update](https://github.com/Nonprofit-Open-Data-Collective/irs-990-efiler-database/tree/master/BUILD_SCRIPTS) ] [Link to Dataset]
 
-<br>
 
 ```r
 # R script for most recent sample:
@@ -135,6 +128,12 @@ source( "https://raw.githubusercontent.com/Nonprofit-Open-Data-Collective/irs-99
 d <- buildIndex()
 table( d$FormType, d$TaxYear )
 ```
+
+|      |  2009|   2010|   2011|   2012|   2013|   2014|   2015|   2016|  2017|
+|:-----|-----:|------:|------:|------:|------:|------:|------:|------:|-----:|
+|990   | 33,360| 123,107| 159,539| 179,674| 198,738| 218,614| 232,975| 214,585| 25,921|
+|990EZ | 15,500|  63,253|  82,066|  93,769| 104,538| 116,461| 124,507| 121,530| 28,767|
+|990PF |  2,352|  25,275|  34,597|  39,936|  45,897|  53,443|  58,724|  60,305| 20,608|
 
 <br>
 
