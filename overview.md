@@ -14,6 +14,8 @@ We also have some legacy files on our [Dataverse](https://dataverse.harvard.edu/
 
 You can post questions on the [discussion board](https://nonprofit-open-data-collective.github.io/discuss/).
 
+You should also check out the great resources from [CitizenAudit](https://www.citizenaudit.org/) and [Open990](https://www.open990.com/org/).
+
 <br>
 
 
