@@ -51,10 +51,12 @@ If you have ideas for conference panels or events and are looking for collaborat
 <br>
 
 
+
 --------------
-
-
-
+ 
+<br>  
+<br>  
+ 
 
 ## Rules for Questions About Code
 
