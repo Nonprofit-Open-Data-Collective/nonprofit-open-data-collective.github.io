@@ -7,7 +7,7 @@ tags: article
 
 The scholars Márcia Santos, Raul Laureano, and Sérgio Moro have a forthcoming article in VOLUNTAS titled, "[Unveiling Research Trends for Organizational Reputation in the Nonprofit Sector](https://link.springer.com/article/10.1007/s11266-018-00055-7)".
 
-They apply topic modeling applied to recent published scholarship on nonprofit reputation as a way to identify key themes within the 177 identified articles published between 2016 and 2018. 
+They apply topic modeling applied to recent published scholarship on nonprofit reputation as a way to identify key themes within the 177 identified articles published between 2016 and 2018. They identify three key findings:
 
 > First, managers need to develop skills to deal with risk, the Internet, and social networks. Second, risk management is an emergent, still tentative, but important topic waiting for more contributions. Third, researchers can apply lexicons developed and validated by experts to uncover knowledge relevant to the entire nonprofit sector’s organizations.
 
