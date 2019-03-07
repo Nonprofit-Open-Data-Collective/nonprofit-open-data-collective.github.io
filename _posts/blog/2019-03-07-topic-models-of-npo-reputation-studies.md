@@ -5,7 +5,7 @@ categories: [text mining, topic modeling, reputation]
 tags: article
 ---
 
-The scholars Márcia Santos, Raul Laureano, and Sérgio Moro have a forthcoming article in VOLUNTAS titled, "Unveiling Research Trends for Organizational Reputation in the Nonprofit Sector".
+The scholars Márcia Santos, Raul Laureano, and Sérgio Moro have a forthcoming article in VOLUNTAS titled, "[Unveiling Research Trends for Organizational Reputation in the Nonprofit Sector](https://link.springer.com/article/10.1007/s11266-018-00055-7)".
 
 They apply topic modeling applied to recent published scholarship on nonprofit reputation as a way to identify key themes within the 177 identified articles published between 2016 and 2018. 
 
