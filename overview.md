@@ -39,6 +39,11 @@ The National Center for Charitable Statistics at the Urban Institute has opened 
 
 [NCCS Open Data Portal](http://nccs-data.urban.org/index.php)
 
+## Historic PDFs of 990s
+
+The Economic Research Institute provides several years of IRS 990 filings in PDF form on their site:
+
+[ERI Nonprofit Search](https://www.erieri.com/form990finder)
 
 <br>
 
@@ -235,6 +240,9 @@ There are some additional interesting sources of nonprofit data that have the po
 **Religious Congregation Data**
 * Measures of Church Numbers and Membership from 1950 to 2010
 * [Link to Association of Religion Data Archives](http://www.thearda.com/archive/browse.asp)
+
+**NGO Data**
+* Duke University maintains an updated list of active [NGO Directories](https://guides.library.duke.edu/ngo_guide)
 
 **Marc Joffe's Federal Audit Clearinghouse Harvester**
 * [Link to Federal Website](https://harvester.census.gov/facdissem/SearchA133.aspx)
