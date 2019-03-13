@@ -23,8 +23,8 @@ PSI’s Nonprofit Data Project convenes leading researchers, data experts and ot
 
 With a workforce that is one of the largest in the country—almost edging out manufacturing jobs in 2016, according to “The 2019 Nonprofit Employment Report” by the Johns Hopkins Center for Civil Society Studies—clearly nonprofit employment and wage data are needed on a regular basis. The Nonprofit Data Project is grateful to the Bureau of Labor Statistics for its important work and hopes that this is a sign of more data to come.
 
-Cinthia Schuman Ottinger
-The Aspen Institute
-2300 N Street, NW Suite 700
-Washington, DC 20037
+Cinthia Schuman Ottinger  
+The Aspen Institute  
+2300 N Street, NW Suite 700  
+Washington, DC 20037  
 
