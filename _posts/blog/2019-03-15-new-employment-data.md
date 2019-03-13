@@ -6,7 +6,7 @@ tags: employment, open data, BLS
 ---
 
 
-[TREASURE TROVE OF NONPROFIT EMPLOYMENT DATA RELEASED BY BUREAU OF LABOR STATISTICS](https://www.bls.gov/bdm/nonprofits/nonprofits.htm)
+[Treasure Trove of Nonprofit Employment Data Released by Bureau of Labor Statistics](https://www.bls.gov/bdm/nonprofits/nonprofits.htm)
 
 National, State, County and MSA-Level Information Updated for Years 2017, 2015, 2014, and 2013
 
