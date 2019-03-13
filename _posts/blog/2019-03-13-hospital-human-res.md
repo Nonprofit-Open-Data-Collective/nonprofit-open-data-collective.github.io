@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data on Hospitals
+title: Data on Hospitals, HR, & Performance
 categories: [Hospitals, Human Resources]
 tags: human resources, hospitals, healthcare, survey data, performance
 ---
