@@ -239,6 +239,10 @@ There are some additional interesting sources of nonprofit data that have the po
 * [Data Dictionary](http://aese.psu.edu/nercrd/community/social-capital-resources/social-capital-variables-for-1997-2005-and-2009/data-dictionary-sk-variables)
 * Data available for 1990, 1997, 2005, and 2009
 
+**County Level Measures of Nonprofit Employment**
+* Johns Hopkins CCS overview of the project [ [website](http://ccss.jhu.edu/research-projects/nonprofit-economic-data/) ] [ [report](http://ccss.jhu.edu/wp-content/uploads/2019/01/NED-Factsheet_1.2019.pdf) ]
+* BLS site with data downloads [ [link](https://www.bls.gov/bdm/nonprofits/nonprofits.htm) ]
+
 **Religious Congregation Data**
 * Measures of Church Numbers and Membership from 1950 to 2010
 * [Link to Association of Religion Data Archives](http://www.thearda.com/archive/browse.asp)
