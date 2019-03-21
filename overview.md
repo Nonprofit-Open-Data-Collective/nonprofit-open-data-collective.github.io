@@ -49,6 +49,8 @@ The Economic Research Institute provides several years of IRS 990 filings in PDF
 
 ## (1) IRS E-Filer 990 Data 
 
+[Nice Overview of E-File Data](https://medium.com/@open990/the-irs-990-e-file-dataset-getting-to-the-chocolatey-center-of-data-deliciousness-90f66097a600)
+
 The IRS has released all nonprofit 990 tax data that has been e-filed through their online system, approximately 60-65% of all 990-PC and 990-EZ filers. It is available for years 2012 to current years with a small set of returns avaialable for 2010 and 2011. The data has been posted as XML files in an [Amazon Web Server (AWS) Cloud Server](https://aws.amazon.com/public-datasets/irs-990/). More details about the data and the push to have it made public are below.
 
 In order to support use of this data, we have converted the XML files into a research database similar to the NCCS Core dataset.
