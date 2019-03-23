@@ -227,7 +227,35 @@ Current sample sizes are at:
 [ [Data Dictionary](https://www.irs.gov/pub/irs-tege/f1023ez_infosheet.pdf) ]  [ [Link to Dataset](https://www.irs.gov/charities-non-profits/exempt-organizations-form-1023ez-approvals) ]
 
 
+
+
+## (8) Foundation Grants
+
+Over 1.4 million grants. Data was created by IBM Watson's Causebot by extracting fields from the IRS e-files (very little documentation provided). 
+
+2010  |  2011 |  2012 |  2013 |  2014 |  2015 |
+------|-------|-------|-------|-------|-------|
+159,435 | 213,457  |  246,691  |  275,551 |  307,383 |  213,564
+
+
+* **granteeein** - EIN of the grant recipient. Also known as grantee  
+* **grantee** - Name of the grantee  
+* **grantdesc** - Brief description of the grant in the tax filing  
+* **cashgrantamt** - Cash amount of the grant  
+* **grantor** - Name of the grantor  
+* **grantorein** - EIN of the grantor  
+* **taxperiod** - The tax period in which this grant belongs in  
+* **granteecity** - City location of the grantee  
+* **granteestate** - State location of the grantee  
+* **granteezipcode** - Zip code of the grantee  
+* **grantorcity** - City location of the grantor  
+* **grantorstate** - State location of the grantor  
+* **grantorzipcode** - Zip code of the grantor  
+
+[ [All Efile Foundation Grants 2010-2015](https://data.world/causebot/grant-2010-to-2016) ]
+
 <br> 
+
 
 
 # Additional Open Data Resources of Note 
@@ -243,7 +271,7 @@ There are some additional interesting sources of nonprofit data that have the po
 * Johns Hopkins CCS overview of the project [ [website](http://ccss.jhu.edu/research-projects/nonprofit-economic-data/) ] [ [report](http://ccss.jhu.edu/wp-content/uploads/2019/01/NED-Factsheet_1.2019.pdf) ]
 * BLS site with data downloads [ [link](https://www.bls.gov/bdm/nonprofits/nonprofits.htm) ]
 
-**Foundation Grants**
+**Foreign AID**
 * International Aid Transparency Initiative (iati) [ [ database of grants](https://iatistandard.org/en/) ] 
 * OECD Stats Credit Reporting System (CRD) to NGOs [ [database](https://stats.oecd.org/Index.aspx?DataSetCode=CRS1) ]  
 * Example Foundations Pages:  
