@@ -271,6 +271,14 @@ There are some additional interesting sources of nonprofit data that have the po
 * Johns Hopkins CCS overview of the project [ [website](http://ccss.jhu.edu/research-projects/nonprofit-economic-data/) ] [ [report](http://ccss.jhu.edu/wp-content/uploads/2019/01/NED-Factsheet_1.2019.pdf) ]
 * BLS site with data downloads [ [link](https://www.bls.gov/bdm/nonprofits/nonprofits.htm) ]
 
+**Convenient US Longitudinal Census Tract Datasets**
+* Census datasets are painful to create over time because of changes to tracts, variables, variable names, and many other issues. For a couple of convenient logitudinal sources try:  
+* [Time Series Tables](https://www.nhgis.org/documentation/time-series) from the National Historical Geographic Information System   
+* [Longitudinal Tract Data Base](https://s4.ad.brown.edu/Projects/Diversity/Researcher/Bridging.htm) from the Diversity and Disparities Project  
+  - [Variable List](https://s4.ad.brown.edu/projects/diversity/Researcher/List%20of%20Available%20Variables.pdf)  
+  - [Data Dictionary](https://s4.ad.brown.edu/projects/diversity/Researcher/LTBDDload/Dfiles/codebooks.pdf)  
+  - [Data Download Page](https://s4.ad.brown.edu/projects/diversity/Researcher/LTBDDload/Default.aspx)  
+
 **Foreign AID**
 * International Aid Transparency Initiative (iati) [ [ database of grants](https://iatistandard.org/en/) ] 
 * OECD Stats Credit Reporting System (CRD) to NGOs [ [database](https://stats.oecd.org/Index.aspx?DataSetCode=CRS1) ]  
