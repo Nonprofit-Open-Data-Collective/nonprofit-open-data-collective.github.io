@@ -5,7 +5,7 @@ categories: [NGO, interview, leadership, management]
 tags: NGO, open data
 ---
 
-As part of an NSF-funded project, the **Transnational NGO Initiative** interviewed 152 US-based Transnational NGO (TNGO) executive directors / CEOs regarding organizational activities, strategies, goals, challenges, effectiveness, accountability, communication, networks, partnerships, and leadership. 
+As part of an NSF-funded project, the **Transnational NGO Initiative** interviewed 152 US-based Transnational NGO (TNGO) Executive Directors / CEOs regarding organizational activities, strategies, goals, challenges, effectiveness, accountability, communication, networks, partnerships, and leadership. 
 
 The interview transcripts were coded using computer-aided qualitative data analysis software to produce a quantitative dataset containing several hundred variables. Both the quantiative dataset and the qualitative transcripts are available to scholars interested in international NGOs and the management of large nonprofit organizations. 
 
