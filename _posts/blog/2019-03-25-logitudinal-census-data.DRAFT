@@ -8,9 +8,9 @@ author:
 
 
 
-## The NHGIS
-
-Working with over-time census data is challenging because of changes to block groups and tracts.
+## The NHGIS  
+ 
+Working with over-time census data is challenging because of changes to block groups and tracts.  
 
 The National Historical Geographic Information System at the University of Minnesota provides Census files that have all been harmonized to 2010 tracts:
 
