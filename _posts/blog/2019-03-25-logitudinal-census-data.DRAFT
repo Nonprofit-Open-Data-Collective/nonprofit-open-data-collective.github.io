@@ -9,29 +9,35 @@ author:
 
 
 ## The NHGIS  
+
  
-Working with over-time census data is challenging because of changes to block groups and tracts.  
+Working with over-time census data is challenging because of changes to block groups and tracts. 
+
 
 The National Historical Geographic Information System at the University of Minnesota provides Census files that have all been harmonized to 2010 tracts:
 
+
 [https://www.nhgis.org/documentation/time-series](https://www.nhgis.org/documentation/time-series)
+
 
 The build returns an extremely well-structured and well-documented data file for all 72,000+ Census tracts.
 
-```
---------------------------------------------------------------------------------
-Codebook for NHGIS data file 'nhgis0001_ts_geog2010_tract'
---------------------------------------------------------------------------------
- 
-Contents
-    - Data Summary
-    - Data Dictionary
-    - Geographic Integration Methods
-    - Source Data
-    - Citation and Use
- 
-Detailed notes on time series design and comparability are available at: 
-    https://www.nhgis.org/sites/www.nhgis.org/files/nhgis_time_series_tables.pdf 
+
+
+```  
+--------------------------------------------------------------------------------  
+Codebook for NHGIS data file 'nhgis0001_ts_geog2010_tract'  
+--------------------------------------------------------------------------------  
+  
+Contents  
+    - Data Summary  
+    - Data Dictionary  
+    - Geographic Integration Methods  
+    - Source Data  
+    - Citation and Use  
+   
+Detailed notes on time series design and comparability are available at:  
+    https://www.nhgis.org/sites/www.nhgis.org/files/nhgis_time_series_tables.pdf  
  
 --------------------------------------------------------------------------------
 Data Summary
@@ -74,23 +80,29 @@ Table 1: (CL8) Total Population
                         Variable: [H7V001] Total
 ...
 
-```
+```  
+
 
 <br>
 
-## Diversities and Disparities Project
 
-Similarly, the Diversities and Disparities project run by John Logan and colleagues have generated a free longitudinal dataset of harmonized Census variables from 1970 to 2010:
+## Diversities and Disparities Project  
+
+
+Similarly, the Diversities and Disparities project run by John Logan and colleagues have generated a free longitudinal dataset of harmonized Census variables from 1970 to 2010:  
+
 
 [https://s4.ad.brown.edu/Projects/Diversity/Researcher/Bridging.htm](https://s4.ad.brown.edu/Projects/Diversity/Researcher/Bridging.htm)
 
-* [DATA DICTIONARY](https://s4.ad.brown.edu/projects/diversity/Researcher/List%20of%20Available%20Variables.pdf)  
-* [CODEBOOK](https://s4.ad.brown.edu/projects/diversity/Researcher/LTBDDload/Dfiles/codebooks.pdf)   
-* [DATA DOWNLOAD](https://s4.ad.brown.edu/projects/diversity/Researcher/LTBDDload/Default.aspx)  
 
+* [DATA DICTIONARY](https://s4.ad.brown.edu/projects/diversity/Researcher/List%20of%20Available%20Variables.pdf)   
+* [CODEBOOK](https://s4.ad.brown.edu/projects/diversity/Researcher/LTBDDload/Dfiles/codebooks.pdf)    
+* [DATA DOWNLOAD](https://s4.ad.brown.edu/projects/diversity/Researcher/LTBDDload/Default.aspx)   
+  
 <br> 
 
-----------
-
+----------  
+ 
 <br><br>
+
 
