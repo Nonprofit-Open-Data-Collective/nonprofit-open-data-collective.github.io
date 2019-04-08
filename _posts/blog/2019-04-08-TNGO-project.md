@@ -18,7 +18,7 @@ You can find interview protocols, code books, and data downloads on the TNGO Ini
 
 **Resources**
 
-* [Shite Paper (short)](https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/raw/master/_posts/blog/papers/Abridged_white_paper_19_APR_2010.pdf)  
+* [White Paper (short)](https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/raw/master/_posts/blog/papers/Abridged_white_paper_19_APR_2010.pdf)  
 * [White Paper (full)](https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/raw/master/_posts/blog/papers/Unabridged_white_paper_19_APR_2010.pdf)  
 * [Interview Protocols](https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/raw/master/_posts/blog/papers/TNGO_Protocol_19_APR_2010.pdf)  
 * [Quantitative Data Code Book](https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/raw/master/_posts/blog/papers/TNGO_Quant_Codebook_13_OCT_2010.pdf)  
