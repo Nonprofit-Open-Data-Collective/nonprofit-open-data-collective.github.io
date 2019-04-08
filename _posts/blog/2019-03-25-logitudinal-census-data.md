@@ -8,7 +8,6 @@ author:
 
 
 
-## The NHGIS  
 
  
 Working with over-time census data is challenging because of changes to block groups and tracts. 
