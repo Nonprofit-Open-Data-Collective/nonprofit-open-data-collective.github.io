@@ -24,7 +24,7 @@ You can find interview protocols, code books, and data downloads on the TNGO Ini
 * [Quantitative Data Code Book](https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/raw/master/_posts/blog/papers/TNGO_Quant_Codebook_13_OCT_2010.pdf)  
 * [Data Sharing Agreement](https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/raw/master/_posts/blog/papers/TNGO_data_sharing_19_APR_2010.pdf)  
 
-
+Contact Jeb Beagles, Assistant Professor of Public Affairs at Syracuse University, with questions.
 
 
 # Publications Using the Data
