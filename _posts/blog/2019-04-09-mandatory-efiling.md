@@ -25,7 +25,7 @@ Action now goes to the Senate, where a bipartisan companion bill has been introd
 
 All best,
 
-Cinthia Schuman Ottinger
-The Aspen Institute
-2300 N Street, NW Suite 700
-Washington, DC 20037
+Cinthia Schuman Ottinger  
+The Aspen Institute  
+2300 N Street, NW Suite 700  
+Washington, DC 20037  
