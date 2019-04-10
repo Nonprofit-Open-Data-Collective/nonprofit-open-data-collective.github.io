@@ -262,6 +262,11 @@ Over 1.4 million grants. Data was created by IBM Watson's Causebot by extracting
 
 There are some additional interesting sources of nonprofit data that have the potential to be leveraged for future research:
 
+
+**County Level Measures of Individual Incomes and Charitable Donations**
+* [SOI Income Tax Stats](https://www.irs.gov/statistics/soi-tax-stats-county-data)  
+* Use in research: [The Politics of Donations: Are Red Counties More Donative Than Blue Counties?](https://journals.sagepub.com/doi/full/10.1177/0899764018804088)  
+
 **County Level Measures of Social Capital**
 * [Data](http://aese.psu.edu/nercrd/community/social-capital-resources)
 * [Data Dictionary](http://aese.psu.edu/nercrd/community/social-capital-resources/social-capital-variables-for-1997-2005-and-2009/data-dictionary-sk-variables)
