@@ -1,0 +1,19 @@
+---
+layout: post
+title: The Politics of Donations: Are Red Counties More Donative Than Blue Counties?
+categories: [charitable giving, political party]
+tags: charitable giving, political party
+author:
+---
+
+A new study highlights the complex relationship between political party and donative behavior:
+
+Paarlberg, L. E., Nesbit, R., Clerkin, R. M., & Christensen, R. K. (2018). The Politics of Donations: Are Red Counties More Donative Than Blue Counties?. Nonprofit and Voluntary Sector Quarterly, DOI 0899764018804088.
+
+The article is especially impressive in how many datasets are linked in order to generate the analysis: income tax data, political voting data, religious congregation data, and census data - all at the county level. 
+
+> We tested this model using county-level itemized deduction data from the United States Internal Revenue Service’s (IRS) Individual Master File, which aggregates information from individual and household income tax returns (Form 1040; downloaded from https://www.irs.gov/uac/soi-tax-stats-county-data) at the county level. These data do not allow us to test for individual household differences across counties. Since the 1980s, counties increasingly have had greater authority and discretion to provide a broader array of services in the face of devolution of public service delivery and decline in state and federal funded services (Percival et al., 2009). In addition, most donors direct a substantial proportion of charitable giving toward local organizations (Wolpert, 1999).
+
+> The data set includes such information as the number of tax returns filed in the county, aggregated financial information from the tax returns (e.g., salaries and income from various sources), and the aggregated amount of tax credits and deductions claimed. We used the 2012 through 2013 data for our analysis. For each year, the data represent the returns pertaining to that particular tax year that were filed the following year. For example, the 2012 data are tax returns filed anytime between January 1, 2013, and December 31, 2013, and they relate to the individual’s income during 2012. We are limited to 2 years of data for two reasons: (a) the 2014 data were not yet publicly available and (b) the AGI of itemizers (the denominator of our dependent variable) was not available prior to 2012. The IRS files do not include county-level financial information in which there are less than 20 returns in any given county. The IRS reported suppressed data as a zero, and we excluded any counties that reported zero contributions from our analysis (31 counties across both 2012 and 2013). Comparing state returns to county-level returns in 2013 indicated that suppressed counties accounted for less than 0.2% of the state-level number of returns and aggregated income. Counties with majority Republican voters were as likely to have zero contributions as Democratic-leaning counties.
+
+> Using the county Federal Information Processing Standard (FIPS) code, we also matched the IRS tax return data with county-level data from several other sources. We used variables from the CQ Press’s Elections and Voting Data as measures of political ideology. We also used data from the 2010 U.S. Decennial Census (downloaded from www.census.gov) to control for basic community characteristics (e.g., median age). Our measure of religiosity (described below) comes from the Association for Religion Data Archives, which houses county-level data on churches and church membership for 236 religious groups in each county of the United States (http://www.thearda.com/Archive/ChCounty.asp). Our measure of rurality comes from the U.S. Department of Agriculture’s (USDA) Economic Research Service’s rural–urban continuum codes (downloaded from http://www.ers.usda.gov/data-products/rural-urban-continuum-codes/.aspx).
