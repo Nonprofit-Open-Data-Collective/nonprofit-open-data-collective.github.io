@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Politics of Donations: Are Red Counties More Donative Than Blue Counties?
+title: The Politics of Donations - Are Red Counties More Donative Than Blue Counties?
 categories: [charitable giving, political party]
 tags: charitable giving, political party
 author:
