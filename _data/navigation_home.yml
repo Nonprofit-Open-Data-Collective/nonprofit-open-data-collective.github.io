@@ -3,7 +3,7 @@
 - title: Open Datasets
   desc: Check out some of the open data assets contributed by members.
   icon: database
-  doc: /datasets/
+  doc: /overview/
 
 - title: Tools
   desc: Learn about some contributed tools for linking or extending data.
