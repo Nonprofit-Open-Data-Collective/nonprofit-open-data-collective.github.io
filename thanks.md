@@ -4,10 +4,12 @@ title: Thanks
 permalink: /thanks/
 ---
 
-Varius tempor. Nulla non sollicitudin tortor. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla.
+Thank you for contacting the Nonprofit Open Data Collective. We will respond shortly. 
 
-Ut malesuada varius tempor. Nulla non sollicitudin tortor. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla.
+If you need to follow-up on anything, please try:
 
-Mesuada varius tempor. Nulla non sollicitudin tortor. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla.
+Jesse Lecy: jdlecy@asu.edu
 
-Varius tempor. Nulla non sollicitudin tortor. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla.
+Julia Carboni: jlcarbon@maxwell.syr.edu
+
+
