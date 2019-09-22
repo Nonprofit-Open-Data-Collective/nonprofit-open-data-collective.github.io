@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linking Data on Campaign Contributions and Government Grants
-categories: [Big Data, Program Evaluation]
+categories: [Government Funding, Linked Data, Campaign Finance]
 tags: evaluation
 ---
 
