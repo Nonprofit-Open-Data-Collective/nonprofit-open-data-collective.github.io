@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Free Foundations Dataset
+title: Free Foundations and Grants Database
 categories: [Foundations, open-data, grants]
 tags: foundation, 990-pf, grants, open-data
 author:
