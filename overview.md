@@ -31,6 +31,8 @@ We have documented and posted the following open data assets:
 6. **IRS Automatic Revocations:"** Database of nonprofits that had their tax exempt status revoked for failing to file.
 7. **Organizations Granted Tax Exempt Status through 1023-EZ Form:** Data filed electronically on the new shorter 1023-EZ application for 501(c) status.
 
+[What’s a 990 form? A charity accounting expert explains](https://theconversation.com/whats-a-990-form-a-charity-accounting-expert-explains-175019)
+
 <br>
 
 ## Open NCCS Data
