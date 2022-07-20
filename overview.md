@@ -6,15 +6,15 @@ The IRS maintains several important nonprofit databases to track the current pop
 
 In order to make the data accessible to the research community, we have created scripts to download data from IRS websites, clean and process it, and export into familiar formats (CSV, Stata, SPSS, etc.).
 
-We have begun the process to catalog and document these resources, and will begin sharing them through the Nonprofit Open Data Collective [Catalog Page](https://nonprofit-open-data-collective.github.io/datasets/).
-
-When available, we will post new CSV files of 990 tables on [Data World](https://data.world/activity/npdata).
-
-We also have some legacy files on our [Dataverse](https://dataverse.harvard.edu/dataverse/NIOD) site.
+We also have some legacy files on our [Dataverse](https://dataverse.harvard.edu/dataverse/NIOD) site and [Data World](https://data.world/activity/npdata).
 
 You can post questions on the [discussion board](https://nonprofit-open-data-collective.github.io/discuss/).
 
 You should also check out the great resources from [CitizenAudit](https://www.citizenaudit.org/) and [Open990](https://www.open990.com/org/).
+
+Check out the [Generosity Commission's Compendium of Nonprofit and Philanthropic Data](https://nonprofit-open-data-collective.github.io/useful-data/).
+
+Also see the Aspen Institute + Johnson Center's [report on accessing 990 Efile Data](https://www.dropbox.com/s/319z67l3g8ys7va/PSI_Tools%20for%20Accessing%20the%20Open%20990%20Data_April%202022.pdf?dl=0). 
 
 <br>
 
