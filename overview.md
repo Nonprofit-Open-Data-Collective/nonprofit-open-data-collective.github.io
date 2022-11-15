@@ -293,6 +293,8 @@ There are some additional interesting sources of nonprofit data that have the po
 * Ford Foundation Grants [ [database](https://www.fordfoundation.org/work/our-grants/grants-database/grants-all) ]  
 * Hewlett Foundation Grants [ [database](https://hewlett.org/grants/?sort=date) ]  
 
+**Arts Organizations and Economic Impact**
+* [National Archive of Data on Arts and Culture](https://www.icpsr.umich.edu/web/NADAC/studies/36357/versions/V8)
 
 **Religious Congregation Data**
 * Measures of Church Numbers and Membership from 1950 to 2010
