@@ -30,10 +30,10 @@ jj uk-icon {
 **EFILE TOOLS**
 
 * [990 Data Issue Tracker](https://github.com/Nonprofit-Open-Data-Collective/irs-990-data-issue-tracker)
-* [Improved AWS Efile Index](https://github.com/Nonprofit-Open-Data-Collective/aws_990_full_file_index) (deprecated) 
 * [IRS 990 Efile Raw XML Downloads](https://github.com/Nonprofit-Open-Data-Collective/efile-download)
 * [IRS 990 Efile Database Builder](https://github.com/Nonprofit-Open-Data-Collective/irs990efile)
 * [Master Concordance Crosswalk for Efile Data](https://github.com/Nonprofit-Open-Data-Collective/irs-efile-master-concordance-file)
+* [Improved AWS Efile Index](https://github.com/Nonprofit-Open-Data-Collective/aws_990_full_file_index) (deprecated) 
 
 From Jacob Fenton: 
 
