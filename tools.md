@@ -18,7 +18,7 @@ jj uk-icon {
 
 
 <h1 class="uk-text-center" style="color:maroon;">The Data Science Toolkit
- <jj><a href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/blob/master/tools.md"><span uk-icon="icon: github; ratio: 1"></span></a></h1></jj>
+<a href="https://github.com/Nonprofit-Open-Data-Collective/nonprofit-open-data-collective.github.io/blob/master/tools.md"><span uk-icon="icon: github; ratio: 1"></span></a></h1>
 <p class="uk-text-center">Examples of useful data science tools that can help clean, process, or extend your data.</p> 
 
 
